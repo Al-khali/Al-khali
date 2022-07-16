@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there%2C+Welcome+to+my+page)](https://git.io/typing-svg)
 
 
-###I'm **AOURIK KHALID**,
+### I'm **AOURIK KHALID**,
 
 A Guys interested in **computation**. I am a Strong Advocate for 📜 open source, :cloud: Cloud computing, 🚀 DevOps, :new: Innovation and Automation :robot: 
 
