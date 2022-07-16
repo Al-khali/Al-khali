@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=HELLO+GUYS+WELCOME+TO+MY+GITHUB+PAGE)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there%2C+Welcome+to+my+page)](https://git.io/typing-svg)
 
 
 ### Hi there 👋, I'm **AOURIK KHALID**,
