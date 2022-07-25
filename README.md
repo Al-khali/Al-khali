@@ -36,7 +36,6 @@ A Guys interested in **computation**. I am a Strong Advocate for 📜 open sourc
 <h3 align="left">coding env.</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i= " />
     <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vim,vscode" />
   </a>
 </p>
