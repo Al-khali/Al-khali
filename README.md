@@ -31,6 +31,18 @@ A Guys interested in **computation**. I am a Strong Advocate for 📜 open sourc
 
 ---
 
+
+
+<h3 align="left">coding env.</h3>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i= " />
+    <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vim,vscode" />
+  </a>
+</p>
+
+
+---
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=al-khali&show_icons=true&locale=en&layout=compact" alt="al-khali" /></p>
 
 
