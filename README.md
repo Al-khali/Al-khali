@@ -50,7 +50,7 @@ A Guys interested in **computation**. I am a Strong Advocate for 📜 open sourc
 
 ---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&" alt="al-khali" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&theme=radical" alt="al-khali" /></p>
 
 ---
 
