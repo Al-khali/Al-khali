@@ -54,4 +54,4 @@ A Guys interested in **computation**. I am a Strong Advocate for 📜 open sourc
 
 ---
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=monokai" alt="al-khali" /></a> </p>
+<p align="left"> <a href="https://github.com/Al-khali/"><img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=monokai" alt="al-khali" /></a> </p>
