@@ -47,10 +47,11 @@ A Guys interested in **computation**. I am a Strong Advocate for 📜 open sourc
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&locale=en" alt="al-khali" /></p>
 
+
 ---
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&" alt="al-khali" /></p>
 
 ---
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=al-khali" alt="al-khali" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=alduin" alt="al-khali" /></a> </p>
