@@ -5,12 +5,9 @@
 
 A Guys interested in **computation**. I am a Strong Advocate for 📜 open source, :cloud: Cloud computing, 🚀 DevOps, :new: Innovation and Automation :robot: 
 
-- I currently work at MKG consulting as a Data analyst / data engineer 
-
 - 🔭 on my free time i currently do :
-    - [ ] A.I Professional Certification 
-    - [ ] Deep learning Project
-    - [ ] Machine Learning Project
+    - [ ] electronics projet
+    - [ ] Build keyboards 
 
 - :bulb: I'm interested in all this things : **Computing Science, Big Data, Cloud, Machine Learning, Data Science and electronics**
 - 🌱 I’m also currently learning  **RUST and GO** for personal fun project.
