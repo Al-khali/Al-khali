@@ -13,7 +13,7 @@ A Guys interested in **computation**. I am a Strong Advocate for 📜 open sourc
 - 🌱 I’m also currently learning  **RUST and GO** for personal fun project.
 - ⌨️ I like building Keyboard : most recent build - helidox V2 
     ![helidox](https://user-images.githubusercontent.com/45632485/175517914-7e56f857-35c7-446f-b890-98adcbefeaa6.png)
-    build guide : https://github.com/foostan/crkbd/blob/main/corne-classic/doc/buildguide_en.md
+    build guide : [https://github.com/foostan/crkbd/blob/main/corne-classic/doc/buildguide_en.md](https://github.com/foostan/crkbd/tree/main)
 
 --
 
