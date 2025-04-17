@@ -1,55 +1,146 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there%2C+Welcome+to+my+page)](https://git.io/typing-svg)
+# ⚡ `KHALID | DILA4HK` ⚡
 
+```
+ █▄▀ █ █ ▄▀█ █   █ █▀▄  
+ █ █ █▀█ █▀█ █▄▄ █ █▄▀  
+ 
+ ==========================================
+ [SYS:INIT] > CONNEXION ÉTABLIE...
+ [SYS:INFO] > DATA ENGINEER | RUST FANATIC
+ [SYS:STAT] > CAFFEINATED ☕ | FOCUSED 🧠 | READY 💻
+ ==========================================
+```
 
-### I'm **AOURIK KHALID**,
+## `> whoami`
+```bash
+OS          : 🇲🇦 / 🇫🇷 Hybrid Linux User
+Uptime      : 28y 4mo 2d
+Hostname    : LazyDev-K3
+Shell       : zsh + starship
+Terminal    : Kitty + tmux
+Editor      : Neovim (LazyVim + Catppuccin)
+Status      : [ ONLINE ] 
+```
 
-A Guys interested in **computation**. I am a Strong Advocate for 📜 open source, :cloud: Cloud computing, 🚀 DevOps, :new: Innovation and Automation :robot: 
+## `> cat about.md`
 
-- 🔭 on my free time i currently do :
-    - [ ] electronics projet
-    - [ ] Build keyboards 
+<span style="color:#ff00ff">H</span><span style="color:#ff33cc">e</span><span style="color:#ff6699">y</span> <span style="color:#ff9966">!</span> <span style="color:#ffcc33">I</span><span style="color:#ffff00">'</span><span style="color:#ccff00">m</span> <span style="color:#99ff33">K</span><span style="color:#66ff66">h</span><span style="color:#33ff99">a</span><span style="color:#00ffcc">l</span><span style="color:#00ccff">i</span><span style="color:#0099ff">d</span> (aka **Dil4hk**), un **Data Engineer** et **Data Analyst** avec un mindset hacker. Je suis passionné par l'automatisation, les systèmes robustes et les pipelines de données élégants.
 
-- :bulb: I'm interested in all this things : **Computing Science, Big Data, Cloud, Machine Learning, Data Science and electronics**
-- 🌱 I’m also currently learning  **RUST and GO** for personal fun project.
-- ⌨️ I like building Keyboard : most recent build - helidox V2 
-    ![helidox](https://user-images.githubusercontent.com/45632485/175517914-7e56f857-35c7-446f-b890-98adcbefeaa6.png)
-    build guide : [https://github.com/foostan/crkbd/blob/main/corne-classic/doc/buildguide_en.md](https://github.com/foostan/crkbd/tree/main)
+🔮 **Intérêts actuels:** Systèmes distribués, Rust, Sécurité offensive, CTF, et l'architecture de systèmes data-driven.
 
---
+💾 J'adore construire des **backends solides**, des **ETL évolutifs** et explorer de nouvelles technologies. Mon background est fullstack avec une forte inclination pour la sécurité et l'optimisation.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/khalid-a-3b2813192/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/khalid-aourik-3b2813192/" height="30" width="40" /></a>
-</p>
+## `> cat tech-stack.json`
 
---
+```json
+{
+  "data": {
+    "platform": "GCP ☁️",
+    "ingestion": ["Fivetran 🔌", "Kafka 🌊", "Rust Custom Tools 🦀"],
+    "transformation": ["dbt Cloud ⚙️", "Spark ✨", "Dataflow 🌈"],
+    "storage": ["BigQuery 🗃️", "Cloud Storage 📦", "Redis 🔥"],
+    "analysis": ["Looker 📊", "Python 🐍", "Jupyter 📓"],
+    "monitoring": ["Prometheus 📡", "Grafana 📺", "Custom Dashboards 🔍"]
+  },
+  "security": {
+    "ctf_tools": ["Burp Suite 🕷️", "Ghidra 🔬", "IDA Pro 🔎"],
+    "favorite_categories": ["Web Exploitation", "Binary Analysis", "Crypto"],
+    "environments": ["HackTheBox 📦", "TryHackMe 🎮", "CTFtime 🚩"]
+  },
+  "programming": {
+    "main_languages": ["Python 🐍", "Rust 🦀", "SQL 📊", "Bash 🐚"],
+    "learning": ["Zig ⚡", "Go 🐹", "Nix ❄️"],
+    "paradigms": ["Functional", "Data-Oriented", "Zero-Trust"]
+  }
+}
+```
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+## `> ls projects/`
+
+### 🦀 Rust Projects
+- **DataForge** - Framework pour ETL à haute performance
+- **NetSniffer** - Outil réseau pour l'analyse de paquets (WIP)
+- **CryptoParser** - Bibliothèque d'analyse pour protocoles cryptographiques
+
+### 🛠️ Data Engineering
+- **DBT Macros Collection** - Optimisations pour transformations BigQuery
+- **GCP Pipeline Templates** - Infrastructure as Code pour data pipelines
+- **Kafka → BigQuery Connector** - Solution personnalisée avec monitoring
+
+### 🔐 Security/CTF
+- **CTF-Toolkit** - Scripts et outils pour résoudre des challenges CTF
+- **WebVulnScanner** - Scanner de vulnérabilités web avec reporting automatisé
+- **Cryptanalysis Notebook** - Techniques de cryptanalyse pour CTF
+
+## `> cat workflow.sh`
+```bash
+# Environnement
+EDITOR="Neovim (LazyVim + Catppuccin Mocha + Custom Keymaps)"
+TERMINAL="Kitty + tmux + zsh + Starship + Custom Prompt"
+NOTES="Obsidian (Cyberpunk Theme) / Markdown / Neorg"
+MONITOR="bpytop / gtop / rust-top"
+BROWSER="Firefox Developer / Brave"
+GIT="LazyGit / Gitui / Custom Scripts"
+THEME="Neon Cyberpunk Dark with Rust accents 🌒"
+
+# Alias du jour:
+alias hack="cd ~/workspace/ctf && nvim ."
+alias rust-up="cargo update && cargo build --release"
+alias deploy-pipe="terraform apply && notify-me"
+```
+
+## `> htop`
+
+[![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=khalid-dev&show_icons=true&theme=radical)](https://github.com/khalid-dev)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khalid-dev&layout=compact&theme=radical)](https://github.com/khalid-dev)
+[![Trophées GitHub](https://github-profile-trophy.vercel.app/?username=khalid-dev&theme=radical&column=3&margin-w=15&margin-h=15)](https://github.com/khalid-dev)
+
+## `> cat /etc/badges`
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![CTF](https://img.shields.io/badge/CTF-Player-red?style=for-the-badge)
+
+## `> netstat`
+
+```
+CONNEXIONS ÉTABLIES:
+  - 📫 [LinkedIn](https://www.linkedin.com/in/khalid-a-3b2813192/)
+  - 🌐 [Site Personnel](https://main--khalidco.netlify.app/)
+
+```
+
+## `> fortune | cowsay`
+
+```
+ _______________________________________
+/ "Le code n'est pas juste des          \
+| instructions pour les machines, c'est |
+| de la documentation pour les humains" |
+\_______________________________________/
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+> 💻 **"Hack the data. Free the pipeline. Embrace the Rust."**
 
 ---
 
-
-
-<h3 align="left">coding env.</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,git,github,docker,azure,gcp,postgres,vim,vscode" />
-  </a>
-</p>
-
-
----
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=al-khali&show_icons=true&locale=en&layout=compact&theme=radical" alt="al-khali" /></p>
-
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&locale=en&theme=radical" alt="al-khali" /></p>
-
-
----
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&theme=radical" alt="al-khali" /></p>
-
----
-
-<p align="left"> <a href="https://github.com/Al-khali/"><img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=monokai" alt="al-khali" /></a> </p>
+```rust
+fn main() {
+    println!("Merci d'avoir visité mon profil!");
+    
+    // Codé avec Neovim, de la caféine, et un peu de magie.
+    // Dernière mise à jour: Avril 2025
+}
+```
