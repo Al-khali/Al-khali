@@ -91,9 +91,9 @@ alias deploy-pipe="terraform apply && notify-me"
 
 ## `> htop`
 
-[![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=khalid-dev&show_icons=true&theme=radical)](https://github.com/khalid-dev)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khalid-dev&layout=compact&theme=radical)](https://github.com/khalid-dev)
-[![Trophées GitHub](https://github-profile-trophy.vercel.app/?username=khalid-dev&theme=radical&column=3&margin-w=15&margin-h=15)](https://github.com/khalid-dev)
+[![Statistiques GitHub](https://github-readme-stats.vercel.app/api?username=khalid-dev&show_icons=true&theme=radical)](https://github.com/al-khali)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khalid-dev&layout=compact&theme=radical)](https://github.com/al-khali)
+[![Trophées GitHub](https://github-profile-trophy.vercel.app/?username=khalid-dev&theme=radical&column=3&margin-w=15&margin-h=15)](https://github.com/al-khali)
 
 ## `> cat /etc/badges`
 
