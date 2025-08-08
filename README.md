@@ -2,12 +2,14 @@
 
 # 🚀 **KHALID** | **AI ARCHITECT** | **AL-khali** 🚀
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=MLOps+Engineer+%7C+AI+Researcher;Fine-Tuning+HuggingFace+Models+%F0%9F%A4%97;Building+Intelligent+Agents+%F0%9F%A4%96;Data+Engineer+%7C+Rust+Fanatic+%F0%9F%A6%80;Full-Stack+%7C+Security+%7C+Everything+Tech" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=Data+Engineer+%40+Colonies+%F0%9F%8F%A2;MLOps+Freelancer+%7C+AI+Researcher+%F0%9F%A4%96;Arch+Linux+%2B+Hyprland+Rice+Master+%F0%9F%90%A7;DevOps%2FSecOps+%7C+Open+Source+Otaku+%E2%9C%A8;Terraform+Wizard+%7C+Weeb+Engineer+%F0%9F%8E%8C" alt="Typing SVG" />
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=al-khali&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20MLOps-00d9ff?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Status-Building%20the%20Future-00ff41?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Currently-Data%20Engineer%20%40%20Colonies-00d9ff?style=for-the-badge" alt="Current Job" />
+  <img src="https://img.shields.io/badge/Side%20Hustle-MLOps%20Freelancer-ff6b35?style=for-the-badge" alt="Freelance" />
+  <img src="https://img.shields.io/badge/OS-Arch%20BTW-1793d1?style=for-the-badge&logo=arch-linux" alt="Arch Linux" />
+  <img src="https://img.shields.io/badge/Status-Caffeinated%20%26%20Ricing-00ff41?style=for-the-badge" alt="Status" />
 </p>
 
 ```ascii
@@ -18,11 +20,12 @@
     ██║  ██╗██║  ██║██║  ██║███████╗██║██████╔╝
     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝ 
     
-    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-    ██ [SYS:INIT] > AI SYSTEMS ONLINE...     ██
-    ██ [STATUS]   > MLOps | Research | Build ██
-    ██ [MODE]     > 🧠 CREATING | 🚀 SCALING ██
-    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+    ██ [SYS:INIT] > Hyprland + Arch rice loading... ██
+    ██ [JOB:DAY]  > Data Engineer @ Colonies 🏢      ██
+    ██ [JOB:NIGHT]> MLOps Freelancer + AI Otaku 🌙  ██
+    ██ [MODE]     > 🦀 CODING | 🐧 RICING | 🎌 WEEB  ██
+    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
 </div>
@@ -36,23 +39,25 @@
 <td>
 
 ```console
-┌─[khalid@ai-lab]─[~]
-└──╼ $ whoami --verbose
+┌─[khalid@arch-hyprland]─[~]
+└──╼ $ whoami --verbose --weeb-mode
 ```
 
 ```json
 {
-  "identity": "Khalid (Dila4hk)",
-  "role": "AI Architect & MLOps Engineer",
+  "identity": "Khalid (Al-khali) | 見習い開発者", 
+  "day_job": "Data Engineer @ Colonies 🏢",
+  "side_hustle": "MLOps Freelancer + AI Research 🌙",
   "location": "🇲🇦 Morocco / 🇫🇷 France",
-  "uptime": "28y 4mo 2d (and counting...)",
-  "current_mode": "🧠 Research & Development",
+  "uptime": "28y 4mo 2d (still loading...)",
+  "current_setup": "Arch + Hyprland + Catppuccin rice 🎨",
+  "passion_mode": "🐧 Open Source Everything",
   "specializations": [
-    "🤖 AI/ML Model Fine-tuning",
-    "🔧 MLOps Pipeline Architecture", 
-    "🦀 High-Performance Computing",
-    "🛡️ Cybersecurity Research",
-    "📊 Data Engineering at Scale"
+    "🏗️ Data Pipelines & ETL Architecture",
+    "☁️ MLOps & Infrastructure as Code",
+    "🦀 Rust Performance Engineering", 
+    "🛡️ DevOps/SecOps & Cloud Security",
+    "🎌 Weeb-level Automation Scripts"
   ]
 }
 ```
@@ -61,24 +66,27 @@
 <td>
 
 ```console
-┌─[system@neural-net]─[~] 
-└──╼ $ cat ~/.config/workspace
+┌─[otaku@arch-rice]─[~/.config] 
+└──╼ $ cat hyprland.conf | grep -A20 "# My weeb setup"
 ```
 
 ```yaml
-development_env:
-  shell: "zsh + starship + oh-my-zsh"
-  terminal: "kitty + tmux + custom theme"
-  editor: "neovim (lazyvim + catppuccin)"
-  ai_tools: "cursor + github copilot"
+rice_setup:
+  wm: "Hyprland (floating like my waifu dreams)"
+  shell: "zsh + starship + pokemon theme"
+  terminal: "kitty + tmux + anime girl wallpaper"
+  editor: "neovim (lazyvim + catppuccin mocha)"
+  browser: "firefox (with anime extensions obvs)"
   
-current_projects:
-  - LLM fine-tuning pipeline
-  - Multi-agent orchestration
-  - Real-time ML inference
-  - Edge AI deployment
+current_side_projects:
+  - Terraform modules for AWS/GCP 🏗️
+  - K8s operators in Rust 🦀
+  - MLflow + DVC automation 🤖
+  - Security monitoring dashboards 🛡️
+  - Dotfiles with kawaii prompts 🎌
   
-status: "🟢 ONLINE & CAFFEINATED ☕"
+work_mode: "Data pipelines by day, MLOps by night"
+status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
 ```
 
 </td>
@@ -102,24 +110,27 @@ status: "🟢 ONLINE & CAFFEINATED ☕"
 
 </div>
 
-**Hey there!** 👋 I'm **Khalid** (aka **Al-khali**), an **AI Architect**, **MLOps Engineer**, and **Tech Polyglot** who lives at the intersection of cutting-edge AI and robust system architecture. 
+**Konnichiwa!** 👋 I'm **Khalid** (aka **Al-khali**), your friendly neighborhood **Data Engineer** by day 🌅, **MLOps Freelancer** by night 🌙, and **Open Source Otaku** 24/7! Currently architecting data pipelines at **Colonies** while building the future of AI systems in my spare time.
 
-🧠 **Current Focus Areas:**
-- 🤗 **Fine-tuning LLMs** on HuggingFace for specialized domains
-- 🤖 **Building Intelligent Agents** with advanced reasoning capabilities  
-- 🚀 **MLOps at Scale** - from research to production deployment
-- 🔬 **AI Research** - pushing boundaries in neural architecture
-- 🛡️ **AI Security** - red-teaming AI systems and adversarial research
+🏢 **Day Job @ Colonies:**
+- 🏗️ **Data Pipeline Architecture** - ETL/ELT at scale with modern stack
+- 📊 **Real-time Data Processing** - Kafka, Spark, and streaming magic
+- ☁️ **Cloud Infrastructure** - GCP/AWS with Infrastructure as Code
+- 🔧 **DevOps Integration** - CI/CD for data workflows
 
-🎯 **What I Do:**
-- **Design & Deploy** end-to-end ML pipelines that scale from 0 to millions
-- **Fine-tune** transformer models for domain-specific applications
-- **Architect** distributed systems that handle real-time ML inference
-- **Research** novel approaches in multi-agent coordination
-- **Build** everything from data pipelines to neural networks
-- **Secure** systems with offensive security mindset and CTF expertise
+🌙 **Night Hustle (Freelance MLOps):**
+- 🤗 **LLM Fine-tuning** on HuggingFace for specialized domains
+- 🤖 **MLOps Pipeline Design** - from Jupyter notebooks to production
+- 📈 **Model Monitoring** - MLflow, W&B, custom dashboards
+- 🚀 **Kubernetes ML Deployments** - scalable inference with Helm
 
-💡 My approach blends **hardcore engineering** with **cutting-edge research** - I don't just implement AI, I **architect the future** of intelligent systems.
+🐧 **Open Source Passion:**
+- 🎨 **Arch Linux Rice Master** - Hyprland + Catppuccin aesthetic
+- 🦀 **Rust Evangelism** - performance-critical tools and libraries  
+- 🛡️ **DevOps/SecOps** - Terraform wizardry & security automation
+- 🎌 **Weeb-level Automation** - because manual work is not kawaii
+
+💡 I blend **enterprise data engineering** with **bleeding-edge MLOps** - turning coffee into code and anime into inspiration. BTW I use Arch 🐧
 
 <div align="center">
 
@@ -162,50 +173,64 @@ status: "🟢 ONLINE & CAFFEINATED ☕"
 </details>
 
 <details>
-<summary><b>🏗️ Infrastructure & Data Engineering</b></summary>
+<summary><b>🏗️ Infrastructure & Data Engineering (Day Job Vibes)</b></summary>
 
 ```json
 {
   "cloud_platforms": {
-    "primary": "Google Cloud Platform ☁️",
+    "primary": "Google Cloud Platform ☁️ (Colonies stack)",
     "secondary": ["AWS ☁️", "Azure 🔵", "Railway 🚂"],
     "edge": ["Vercel Edge 📡", "Cloudflare Workers ⚡"]
   },
   "data_pipeline": {
-    "ingestion": ["Fivetran 🔌", "Kafka 🌊", "Rust Custom Tools 🦀"],
-    "transformation": ["dbt Cloud ⚙️", "Apache Spark ✨", "Dataflow 🌈"],
+    "ingestion": ["Kafka 🌊", "Fivetran 🔌", "Custom Rust ETL 🦀"],
+    "transformation": ["dbt Cloud ⚙️", "Apache Spark ✨", "Dataflow 🌈"], 
     "storage": ["BigQuery 🗃️", "ClickHouse ⚡", "DuckDB 🦆", "Redis 🔥"],
     "streaming": ["Apache Flink 🌊", "Kafka Streams 🚀", "Pulsar 📡"]
   },
-  "observability": {
-    "metrics": ["Prometheus 📡", "Grafana 📺", "DataDog 🐕"],
-    "tracing": ["Jaeger 👁️", "OpenTelemetry 📊", "Honeycomb 🍯"],
-    "logging": ["ELK Stack 📚", "Loki 📖", "Fluentd 🌊"]
+  "devops_infrastructure": {
+    "iac": ["Terraform 🏗️", "Pulumi ⚡", "CDK 📦"],
+    "containers": ["Docker 🐳", "Podman 📦", "Kubernetes ☸️"],
+    "ci_cd": ["GitLab CI 🔄", "GitHub Actions 🎬", "Jenkins 🤖"],
+    "monitoring": ["Prometheus 📡", "Grafana 📺", "ELK Stack 📚"]
+  },
+  "security_ops": {
+    "secrets": ["Vault 🔒", "SOPS 🔐", "K8s Secrets 🗝️"],
+    "scanning": ["Trivy 🛡️", "Snyk 🔍", "SonarQube 📊"],
+    "compliance": ["OPA/Gatekeeper 🚪", "Falco 👁️", "KICS 🔒"]
   }
 }
 ```
 </details>
 
 <details>
-<summary><b>⚡ Languages & Core Technologies</b></summary>
+<summary><b>⚡ Languages & Core Technologies (Otaku Edition)</b></summary>
 
 ```json
 {
   "languages": {
-    "expert": ["Python 🐍", "Rust 🦀", "SQL 📊", "TypeScript 📜"],
-    "proficient": ["Go 🐹", "C++ ⚡", "Bash 🐚", "CUDA 🎯"],
-    "exploring_2025": ["Zig ⚡", "Mojo 🔥", "Carbon 💎", "Bend 🌀"]
+    "sensei_level": ["Python 🐍", "SQL 📊", "Rust 🦀", "Bash 🐚"],
+    "chuunin_level": ["TypeScript 📜", "Go 🐹", "YAML 📝", "HCL (Terraform) 🏗️"],
+    "genin_level": ["C++ ⚡", "Zig ⚡", "CUDA 🎯"],
+    "learning_no_jutsu": ["Mojo 🔥", "Carbon 💎", "Bend 🌀", "Japanese 🎌"]
   },
   "web_tech": {
-    "frontend": ["React ⚛️", "Next.js 🚀", "Svelte 🔥", "Tailwind 🎨"],
-    "backend": ["FastAPI 🚀", "Actix-Web 🦀", "Express.js 📡", "gRPC ⚡"],
-    "realtime": ["WebSockets 🔌", "Server-Sent Events 📡", "WebRTC 🎥"]
+    "frontend": ["React ⚛️", "Next.js 🚀", "Tailwind 🎨", "Astro ⭐"],
+    "backend": ["FastAPI 🚀", "Actix-Web 🦀", "Django REST 🎸", "gRPC ⚡"],
+    "realtime": ["WebSockets 🔌", "SSE 📡", "WebRTC 🎥"]
   },
   "databases": {
     "relational": ["PostgreSQL 🐘", "MySQL 🐬", "SQLite 📱"],
-    "nosql": ["MongoDB 🍃", "Cassandra 💎", "ScyllaDB ⚡"],
+    "analytical": ["BigQuery 📊", "ClickHouse ⚡", "DuckDB 🦆"],
+    "nosql": ["MongoDB 🍃", "Redis 🔥", "ScyllaDB ⚡"],
     "graph": ["Neo4j 🕸️", "ArangoDB 🔄"],
-    "vector": ["Pinecone 🌲", "Weaviate 🕸️", "Qdrant ⚡"]
+    "vector": ["Pinecone 🌲", "Weaviate 🕸️", "Qdrant ⚡", "Chroma 🎨"]
+  },
+  "arch_linux_setup": {
+    "wm": "Hyprland 🌊 (tiling like my anime collection)",
+    "terminal": "Kitty 🐱 + tmux + oh-my-zsh",
+    "editor": "Neovim 📝 (LazyVim + Catppuccin theme)",
+    "dotfiles": "Fully riced with kawaii prompts 🎌"
   }
 }
 ```
@@ -306,22 +331,54 @@ status: "🟢 ONLINE & CAFFEINATED ☕"
 
 </div>
 
-## `> cat workflow.sh`
-```bash
-# Environnement
-EDITOR="Neovim (LazyVim + Catppuccin Mocha + Custom Keymaps)"
-TERMINAL="Kitty + tmux + zsh + Starship + Custom Prompt"
-NOTES="Obsidian (Cyberpunk Theme) / Markdown / Neorg"
-MONITOR="bpytop / gtop / rust-top"
-BROWSER="Firefox Developer / Brave"
-GIT="LazyGit / Gitui / Custom Scripts"
-THEME="Neon Cyberpunk Dark with Rust accents 🌒"
+## `> cat ~/.config/otaku-workflow.sh`
 
-# Alias du jour:
-alias hack="cd ~/workspace/ctf && nvim ."
-alias rust-up="cargo update && cargo build --release"
-alias deploy-pipe="terraform apply && notify-me"
+<div align="center">
+
+<table>
+<tr>
+<td width="50%">
+
+```bash
+# 🎌 Weeb-tier Arch Setup
+export WM="Hyprland"  # floating like anime girls
+export THEME="Catppuccin Mocha"  # kawaii colors
+export TERMINAL="kitty --title 'Senpai Terminal'"
+export EDITOR="nvim"  # vim or death
+export BROWSER="firefox-developer-edition"
+export SHELL="zsh + oh-my-zsh + starship"
+
+# 🏢 Day job aliases (Colonies)
+alias work-mode="cd ~/colonies && source .venv/bin/activate"
+alias data-pipe="dbt run && airflow dag trigger"
+alias gcp-auth="gcloud auth application-default login"
+alias bigquery="bq query --use_legacy_sql=false"
 ```
+
+</td>
+<td width="50%">
+
+```bash
+# 🌙 Night hustle aliases (MLOps Freelance)
+alias mlops-mode="cd ~/freelance && conda activate mlops"
+alias train-model="python train.py --config configs/prod.yaml"
+alias deploy-k8s="helm upgrade --install model-serving ."
+alias monitor-ml="mlflow ui --host 0.0.0.0"
+
+# 🐧 Rice maintenance (because priorities)
+alias rice-update="cd ~/.dotfiles && git pull && ./install.sh"
+alias wallpaper-shuffle="feh --bg-scale --randomize ~/wallpapers/anime/"
+alias neofetch-kawaii="neofetch --config ~/.config/neofetch/kawaii.conf"
+
+# 🎮 Otaku essentials
+alias anime-break="mpv ~/anime/current-season/ --shuffle"
+```
+
+</td>
+</tr>
+</table>
+
+</div>
 
 <div align="center">
 
@@ -365,14 +422,22 @@ alias deploy-pipe="terraform apply && notify-me"
 <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
 <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
 
+<!-- DevOps/SecOps -->
+<img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
+<img src="https://img.shields.io/badge/Vault-000000?style=for-the-badge&logo=vault&logoColor=white" />
+
 <!-- Tools & OS -->
 <img src="https://img.shields.io/badge/NeoVim-57A143?style=for-the-badge&logo=neovim&logoColor=white" />
 <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
+<img src="https://img.shields.io/badge/Hyprland-00AAFF?style=for-the-badge&logo=wayland&logoColor=white" />
 <img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white" />
 
-<!-- Special -->
-<img src="https://img.shields.io/badge/CTF_Player-FF0000?style=for-the-badge&logo=hackthebox&logoColor=white" />
-<img src="https://img.shields.io/badge/AI_Researcher-00D9FF?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<!-- Weeb Special -->
+<img src="https://img.shields.io/badge/I_Use_Arch-BTW-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
+<img src="https://img.shields.io/badge/Data_Engineer-@_Colonies-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Weeb_Level-Over_9000-FF69B4?style=for-the-badge&logo=crunchyroll&logoColor=white" />
+<img src="https://img.shields.io/badge/Rice_Master-Catppuccin-F5C2E7?style=for-the-badge&logo=linux&logoColor=black" />
 
 </div>
 
@@ -426,18 +491,28 @@ alias deploy-pipe="terraform apply && notify-me"
 
 <div align="center">
 
-### 🔥 **"From pixels to neural networks, from bytes to intelligent agents"**
+### 🔥 **"From SQL queries to anime episodes, from Terraform to Catppuccin rice"**
 
 ```rust
+use std::collections::HashMap;
+
 fn main() {
-    let passion = vec!["AI Research", "MLOps", "System Architecture"];
-    let mission = "Building tomorrow's intelligent systems";
+    let mut otaku_engineer = HashMap::new();
     
-    println!("🚀 {}", mission);
-    println!("💻 Stack: {:?}", passion);
+    otaku_engineer.insert("day_job", "Data Engineer @ Colonies 🏢");
+    otaku_engineer.insert("night_hustle", "MLOps Freelancer 🌙");
+    otaku_engineer.insert("os", "Arch Linux BTW 🐧");
+    otaku_engineer.insert("wm", "Hyprland (kawaii tiling) 🌊");
+    otaku_engineer.insert("theme", "Catppuccin Mocha 🎨");
+    otaku_engineer.insert("passion", "Open Source Everything 🚀");
+    otaku_engineer.insert("weeb_level", "Over 9000 🎌");
     
-    // Engineered with ❤️, powered by ☕, debugged with 🔥
-    // Last updated: 2025 - Always evolving
+    println!("🦀 Rustacean by choice, weeb by passion");
+    println!("⚡ Powered by: coffee, ramen & good anime");
+    
+    // Coded with Neovim, riced with love, deployed with Terraform
+    // いらっしゃいませ to my GitHub! (Welcome to my GitHub!)
+    // Last updated: 2025 - Still evolving like a shonen protagonist
 }
 ```
 
