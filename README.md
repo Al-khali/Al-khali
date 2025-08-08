@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 **KHALID** | **AI ARCHITECT** | **DILA4HK** 🚀
+# 🚀 **KHALID** | **AI ARCHITECT** | **AL-khali** 🚀
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=MLOps+Engineer+%7C+AI+Researcher;Fine-Tuning+HuggingFace+Models+%F0%9F%A4%97;Building+Intelligent+Agents+%F0%9F%A4%96;Data+Engineer+%7C+Rust+Fanatic+%F0%9F%A6%80;Full-Stack+%7C+Security+%7C+Everything+Tech" alt="Typing SVG" />
 
@@ -21,7 +21,7 @@
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
     ██ [SYS:INIT] > AI SYSTEMS ONLINE...     ██
     ██ [STATUS]   > MLOps | Research | Build ██
-    ██ [MODE]     > 🧠 CREATING | 🚀 SCALING  ██
+    ██ [MODE]     > 🧠 CREATING | 🚀 SCALING ██
     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
@@ -102,7 +102,7 @@ status: "🟢 ONLINE & CAFFEINATED ☕"
 
 </div>
 
-**Hey there!** 👋 I'm **Khalid** (aka **Dila4hk**), an **AI Architect**, **MLOps Engineer**, and **Tech Polyglot** who lives at the intersection of cutting-edge AI and robust system architecture. 
+**Hey there!** 👋 I'm **Khalid** (aka **Al-khali**), an **AI Architect**, **MLOps Engineer**, and **Tech Polyglot** who lives at the intersection of cutting-edge AI and robust system architecture. 
 
 🧠 **Current Focus Areas:**
 - 🤗 **Fine-tuning LLMs** on HuggingFace for specialized domains
