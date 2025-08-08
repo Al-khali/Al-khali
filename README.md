@@ -2,7 +2,7 @@
 
 # 🚀 **KHALID** | **AI ARCHITECT** | **AL-khali** 🚀
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=Data+Engineer+%40+Colonies+%F0%9F%8F%A2;MLOps+Freelancer+%7C+AI+Researcher+%F0%9F%A4%96;Arch+Linux+%2B+Hyprland+Rice+Master+%F0%9F%90%A7;DevOps%2FSecOps+%7C+Open+Source+Otaku+%E2%9C%A8;Terraform+Wizard+%7C+Weeb+Engineer+%F0%9F%8E%8C" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=Data+Engineer+%40+Colonies+%F0%9F%8F%A2;MLOps+Freelancer+%7C+AI+Researcher+%F0%9F%A4%96;Arch+Linux+%2B+Hyprland+Enthusiast+%F0%9F%90%A7;DevOps%2FSecOps+%7C+Open+Source+Advocate+%E2%9C%A8;Terraform+Expert+%7C+System+Architect+%F0%9F%8E%AF" alt="Typing SVG" />
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=al-khali&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
@@ -21,10 +21,10 @@
     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═════╝ 
     
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-    ██ [SYS:INIT] > Hyprland + Arch rice loading... ██
+    ██ [SYS:INIT] > Development environment ready   ██
     ██ [JOB:DAY]  > Data Engineer @ Colonies 🏢      ██
-    ██ [JOB:NIGHT]> MLOps Freelancer + AI Otaku 🌙  ██
-    ██ [MODE]     > 🦀 CODING | 🐧 RICING | 🎌 WEEB  ██
+    ██ [JOB:NIGHT]> MLOps Freelancer & Researcher 🌙 ██
+    ██ [MODE]     > 🦀 BUILD | 🐧 OPTIMIZE | ⚡ SCALE ██
     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ```
 
@@ -39,25 +39,25 @@
 <td>
 
 ```console
-┌─[khalid@arch-hyprland]─[~]
-└──╼ $ whoami --verbose --weeb-mode
+┌─[khalid@dev-workstation]─[~]
+└──╼ $ whoami --verbose
 ```
 
 ```json
 {
-  "identity": "Khalid (Al-khali) | 見習い開発者", 
+  "identity": "Khalid (Al-khali)", 
   "day_job": "Data Engineer @ Colonies 🏢",
-  "side_hustle": "MLOps Freelancer + AI Research 🌙",
+  "side_hustle": "MLOps Freelancer & AI Research 🌙",
   "location": "🇲🇦 Morocco / 🇫🇷 France",
-  "uptime": "28y 4mo 2d (still loading...)",
-  "current_setup": "Arch + Hyprland + Catppuccin rice 🎨",
-  "passion_mode": "🐧 Open Source Everything",
+  "uptime": "28y 4mo 2d (and counting...)",
+  "current_setup": "Arch + Hyprland + Catppuccin theme 🎨",
+  "philosophy": "🐧 Open Source First",
   "specializations": [
-    "🏗️ Data Pipelines & ETL Architecture",
+    "🏗️ Data Pipeline Architecture",
     "☁️ MLOps & Infrastructure as Code",
-    "🦀 Rust Performance Engineering", 
+    "🦀 Systems Programming & Performance", 
     "🛡️ DevOps/SecOps & Cloud Security",
-    "🎌 Weeb-level Automation Scripts"
+    "⚡ High-Performance Automation"
   ]
 }
 ```
@@ -66,27 +66,27 @@
 <td>
 
 ```console
-┌─[otaku@arch-rice]─[~/.config] 
-└──╼ $ cat hyprland.conf | grep -A20 "# My weeb setup"
+┌─[khalid@arch-station]─[~/.config] 
+└──╼ $ cat development.conf
 ```
 
 ```yaml
-rice_setup:
-  wm: "Hyprland (floating like my waifu dreams)"
-  shell: "zsh + starship + pokemon theme"
-  terminal: "kitty + tmux + anime girl wallpaper"
-  editor: "neovim (lazyvim + catppuccin mocha)"
-  browser: "firefox (with anime extensions obvs)"
+development_setup:
+  wm: "Hyprland (tiling window manager)"
+  shell: "zsh + starship + custom theme"
+  terminal: "kitty + tmux + personalized config"
+  editor: "neovim (lazyvim + catppuccin theme)"
+  browser: "firefox-developer-edition"
   
 current_side_projects:
-  - Terraform modules for AWS/GCP 🏗️
-  - K8s operators in Rust 🦀
-  - MLflow + DVC automation 🤖
+  - Terraform modules for multi-cloud 🏗️
+  - Kubernetes operators in Rust 🦀
+  - MLOps automation pipelines 🤖
   - Security monitoring dashboards 🛡️
-  - Dotfiles with kawaii prompts 🎌
+  - Custom dotfiles & configurations ⚙️
   
-work_mode: "Data pipelines by day, MLOps by night"
-status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
+work_philosophy: "Enterprise by day, innovation by night"
+status: "🟢 ACTIVE & CAFFEINATED ☕"
 ```
 
 </td>
@@ -110,7 +110,7 @@ status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
 
 </div>
 
-**Konnichiwa!** 👋 I'm **Khalid** (aka **Al-khali**), your friendly neighborhood **Data Engineer** by day 🌅, **MLOps Freelancer** by night 🌙, and **Open Source Otaku** 24/7! Currently architecting data pipelines at **Colonies** while building the future of AI systems in my spare time.
+**Hey there!** 👋 I'm **Khalid** (aka **Al-khali**), a **Data Engineer** by day 🌅, **MLOps Freelancer** by night 🌙, and **Open Source Enthusiast** 24/7! Currently architecting data pipelines at **Colonies** while building the future of AI systems in my spare time.
 
 🏢 **Day Job @ Colonies:**
 - 🏗️ **Data Pipeline Architecture** - ETL/ELT at scale with modern stack
@@ -125,12 +125,12 @@ status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
 - 🚀 **Kubernetes ML Deployments** - scalable inference with Helm
 
 🐧 **Open Source Passion:**
-- 🎨 **Arch Linux Rice Master** - Hyprland + Catppuccin aesthetic
-- 🦀 **Rust Evangelism** - performance-critical tools and libraries  
-- 🛡️ **DevOps/SecOps** - Terraform wizardry & security automation
-- 🎌 **Weeb-level Automation** - because manual work is not kawaii
+- 🎨 **Linux Customization** - Arch + Hyprland + Catppuccin aesthetics
+- 🦀 **Systems Programming** - performance-critical tools in Rust  
+- 🛡️ **DevOps/SecOps** - infrastructure automation & security
+- ⚡ **Efficiency-Driven Development** - automation over repetition
 
-💡 I blend **enterprise data engineering** with **bleeding-edge MLOps** - turning coffee into code and anime into inspiration. BTW I use Arch 🐧
+💡 I blend **enterprise data engineering** with **cutting-edge MLOps** - turning coffee into code and curiosity into innovation. *I use Arch BTW* 🐧
 
 <div align="center">
 
@@ -209,10 +209,10 @@ status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
 ```json
 {
   "languages": {
-    "sensei_level": ["Python 🐍", "SQL 📊", "Rust 🦀", "Bash 🐚"],
-    "chuunin_level": ["TypeScript 📜", "Go 🐹", "YAML 📝", "HCL (Terraform) 🏗️"],
-    "genin_level": ["C++ ⚡", "Zig ⚡", "CUDA 🎯"],
-    "learning_no_jutsu": ["Mojo 🔥", "Carbon 💎", "Bend 🌀", "Japanese 🎌"]
+    "expert_level": ["Python 🐍", "SQL 📊", "Rust 🦀", "Bash 🐚"],
+    "proficient": ["TypeScript 📜", "Go 🐹", "YAML 📝", "HCL (Terraform) 🏗️"],
+    "intermediate": ["C++ ⚡", "Zig ⚡", "CUDA 🎯"],
+    "exploring": ["Mojo 🔥", "Carbon 💎", "Bend 🌀"]
   },
   "web_tech": {
     "frontend": ["React ⚛️", "Next.js 🚀", "Tailwind 🎨", "Astro ⭐"],
@@ -226,11 +226,11 @@ status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
     "graph": ["Neo4j 🕸️", "ArangoDB 🔄"],
     "vector": ["Pinecone 🌲", "Weaviate 🕸️", "Qdrant ⚡", "Chroma 🎨"]
   },
-  "arch_linux_setup": {
-    "wm": "Hyprland 🌊 (tiling like my anime collection)",
-    "terminal": "Kitty 🐱 + tmux + oh-my-zsh",
-    "editor": "Neovim 📝 (LazyVim + Catppuccin theme)",
-    "dotfiles": "Fully riced with kawaii prompts 🎌"
+  "development_environment": {
+    "wm": "Hyprland 🌊 (efficient tiling workflow)",
+    "terminal": "Kitty + tmux + oh-my-zsh",
+    "editor": "Neovim (LazyVim + Catppuccin theme)",
+    "dotfiles": "Heavily customized & version-controlled ⚙️"
   }
 }
 ```
@@ -340,11 +340,11 @@ status: "🟢 CAFFEINATED | 🎌 PERMANENTLY WEEB"
 <td width="50%">
 
 ```bash
-# 🎌 Weeb-tier Arch Setup
-export WM="Hyprland"  # floating like anime girls
-export THEME="Catppuccin Mocha"  # kawaii colors
-export TERMINAL="kitty --title 'Senpai Terminal'"
-export EDITOR="nvim"  # vim or death
+# 🐧 Optimized Arch Setup  
+export WM="Hyprland"  # efficient tiling
+export THEME="Catppuccin Mocha"  # aesthetic colors
+export TERMINAL="kitty --title 'Development Terminal'"
+export EDITOR="nvim"  # vim supremacy
 export BROWSER="firefox-developer-edition"
 export SHELL="zsh + oh-my-zsh + starship"
 
@@ -365,13 +365,13 @@ alias train-model="python train.py --config configs/prod.yaml"
 alias deploy-k8s="helm upgrade --install model-serving ."
 alias monitor-ml="mlflow ui --host 0.0.0.0"
 
-# 🐧 Rice maintenance (because priorities)
-alias rice-update="cd ~/.dotfiles && git pull && ./install.sh"
-alias wallpaper-shuffle="feh --bg-scale --randomize ~/wallpapers/anime/"
-alias neofetch-kawaii="neofetch --config ~/.config/neofetch/kawaii.conf"
+# 🐧 System maintenance (priorities matter)
+alias dotfiles-sync="cd ~/.dotfiles && git pull && ./install.sh"
+alias wallpaper-rotate="feh --bg-scale --randomize ~/wallpapers/"
+alias system-info="neofetch --config ~/.config/neofetch/custom.conf"
 
-# 🎮 Otaku essentials
-alias anime-break="mpv ~/anime/current-season/ --shuffle"
+# 🎯 Productivity essentials  
+alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
 ```
 
 </td>
@@ -433,11 +433,11 @@ alias anime-break="mpv ~/anime/current-season/ --shuffle"
 <img src="https://img.shields.io/badge/Hyprland-00AAFF?style=for-the-badge&logo=wayland&logoColor=white" />
 <img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white" />
 
-<!-- Weeb Special -->
+<!-- Personal Touch -->
 <img src="https://img.shields.io/badge/I_Use_Arch-BTW-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
 <img src="https://img.shields.io/badge/Data_Engineer-@_Colonies-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Weeb_Level-Over_9000-FF69B4?style=for-the-badge&logo=crunchyroll&logoColor=white" />
-<img src="https://img.shields.io/badge/Rice_Master-Catppuccin-F5C2E7?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Coffee_Level-Over_9000-8B4513?style=for-the-badge&logo=coffee&logoColor=white" />
+<img src="https://img.shields.io/badge/Theme_Master-Catppuccin-F5C2E7?style=for-the-badge&logo=linux&logoColor=black" />
 
 </div>
 
@@ -491,28 +491,28 @@ alias anime-break="mpv ~/anime/current-season/ --shuffle"
 
 <div align="center">
 
-### 🔥 **"From SQL queries to anime episodes, from Terraform to Catppuccin rice"**
+### 🔥 **"From SQL queries to system optimization, from Terraform to perfect rice"**
 
 ```rust
 use std::collections::HashMap;
 
 fn main() {
-    let mut otaku_engineer = HashMap::new();
+    let mut engineer_profile = HashMap::new();
     
-    otaku_engineer.insert("day_job", "Data Engineer @ Colonies 🏢");
-    otaku_engineer.insert("night_hustle", "MLOps Freelancer 🌙");
-    otaku_engineer.insert("os", "Arch Linux BTW 🐧");
-    otaku_engineer.insert("wm", "Hyprland (kawaii tiling) 🌊");
-    otaku_engineer.insert("theme", "Catppuccin Mocha 🎨");
-    otaku_engineer.insert("passion", "Open Source Everything 🚀");
-    otaku_engineer.insert("weeb_level", "Over 9000 🎌");
+    engineer_profile.insert("day_job", "Data Engineer @ Colonies 🏢");
+    engineer_profile.insert("night_hustle", "MLOps Freelancer 🌙");
+    engineer_profile.insert("os", "Arch Linux BTW 🐧");
+    engineer_profile.insert("wm", "Hyprland (efficient tiling) 🌊");
+    engineer_profile.insert("theme", "Catppuccin Mocha 🎨");
+    engineer_profile.insert("passion", "Open Source Everything 🚀");
+    engineer_profile.insert("philosophy", "Automation > Repetition ⚡");
     
-    println!("🦀 Rustacean by choice, weeb by passion");
-    println!("⚡ Powered by: coffee, ramen & good anime");
+    println!("🦀 Rustacean by choice, efficiency by design");
+    println!("⚡ Powered by: coffee, curiosity & clean code");
     
-    // Coded with Neovim, riced with love, deployed with Terraform
-    // いらっしゃいませ to my GitHub! (Welcome to my GitHub!)
-    // Last updated: 2025 - Still evolving like a shonen protagonist
+    // Coded with Neovim, crafted with precision, deployed with confidence
+    // Welcome to my digital workspace! 
+    // Last updated: 2025 - Continuously evolving
 }
 ```
 
