@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 **KHALID** | **AI ARCHITECT** | **AL-khali** 🚀
+# 🚀 **AL-KHALI** | **DATA ALCHEMIST** | **AI ARCHITECT** 🚀
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=Data+Engineer+%40+Colonies+%F0%9F%8F%A2;MLOps+Freelancer+%7C+AI+Researcher+%F0%9F%A4%96;Arch+Linux+%2B+Hyprland+Enthusiast+%F0%9F%90%A7;DevOps%2FSecOps+%7C+Open+Source+Advocate+%E2%9C%A8;Terraform+Expert+%7C+System+Architect+%F0%9F%8E%AF" alt="Typing SVG" />
 
@@ -39,13 +39,13 @@
 <td>
 
 ```console
-┌─[khalid@dev-workstation]─[~]
-└──╼ $ whoami --verbose
+┌─[al-khali@data-forge]─[~]
+└──╼ $ whoami --verbose --style=anime
 ```
 
 ```json
 {
-  "identity": "Khalid (Al-khali)", 
+  "identity": "Al-khali | Data Alchemist 🧙‍♂️", 
   "day_job": "Data Engineer @ Colonies 🏢",
   "side_hustle": "MLOps Freelancer & AI Research 🌙",
   "location": "🇲🇦 Morocco / 🇫🇷 France",
@@ -66,7 +66,7 @@
 <td>
 
 ```console
-┌─[khalid@arch-station]─[~/.config] 
+┌─[al-khali@neural-station]─[~/.config] 
 └──╼ $ cat development.conf
 ```
 
@@ -112,7 +112,7 @@ status: "🟢 ACTIVE & CAFFEINATED ☕"
 
 </div>
 
-**Hey there!** 👋 I'm **Khalid** (aka **Al-khali**), a **Data Engineer** by day 🌅, **MLOps Freelancer** by night 🌙, and **Open Source Enthusiast** 24/7! Currently architecting data pipelines at **Colonies** while building the future of AI systems in my spare time.
+**Hey there!** 👋 I'm **Al-khali**, a **Data Engineer** by day 🌅, **MLOps Freelancer** by night 🌙, and **Open Source Enthusiast** 24/7! Currently architecting data pipelines at **Colonies** while building the future of AI systems in my spare time.
 
 🏢 **Day Job @ Colonies:**
 - 🏗️ **Data Pipeline Architecture** - ETL/ELT at scale with modern stack
@@ -342,38 +342,39 @@ status: "🟢 ACTIVE & CAFFEINATED ☕"
 <td width="50%">
 
 ```bash
-# 🐧 Optimized Arch Setup  
-export WM="Hyprland"  # efficient tiling
-export THEME="Catppuccin Mocha"  # aesthetic colors
-export TERMINAL="kitty --title 'Development Terminal'"
-export EDITOR="nvim"  # vim supremacy
-export BROWSER="firefox-developer-edition"
+# 🌸 Aesthetic Arch Setup (Sakura Theme)
+export WM="Hyprland"  # smooth like anime transitions
+export THEME="Catppuccin Mocha"  # soft pastels inspired by Studio Ghibli
+export TERMINAL="kitty --title '⚡ Al-khali Terminal'"
+export EDITOR="nvim"  # the way of the keyboard warrior
+export BROWSER="firefox-developer-edition" 
 export SHELL="zsh + oh-my-zsh + starship"
 
-# 🏢 Day job aliases (Colonies)
+# 🏢 Day job aliases (Data Alchemy @ Colonies)
 alias work-mode="cd ~/colonies && source .venv/bin/activate"
-alias data-pipe="dbt run && airflow dag trigger"
-alias gcp-auth="gcloud auth application-default login"
-alias bigquery="bq query --use_legacy_sql=false"
+alias data-forge="dbt run && airflow dag trigger"  # forging data like a blacksmith
+alias gcp-connect="gcloud auth application-default login"
+alias query-master="bq query --use_legacy_sql=false"
 ```
 
 </td>
 <td width="50%">
 
 ```bash
-# 🌙 Night hustle aliases (MLOps Freelance)
-alias mlops-mode="cd ~/freelance && conda activate mlops"
-alias train-model="python train.py --config configs/prod.yaml"
-alias deploy-k8s="helm upgrade --install model-serving ."
-alias monitor-ml="mlflow ui --host 0.0.0.0"
+# 🌙 Night hustle aliases (AI Alchemy)
+alias neural-forge="cd ~/freelance && conda activate mlops"
+alias train-sensei="python train.py --config configs/prod.yaml"  # training like Miyamoto Musashi
+alias deploy-shinobi="helm upgrade --install model-serving ."  # stealth deployment
+alias monitor-dojo="mlflow ui --host 0.0.0.0"  # watch the training ground
 
-# 🐧 System maintenance (priorities matter)
-alias dotfiles-sync="cd ~/.dotfiles && git pull && ./install.sh"
-alias wallpaper-rotate="feh --bg-scale --randomize ~/wallpapers/"
-alias system-info="neofetch --config ~/.config/neofetch/custom.conf"
+# 🌸 Aesthetic maintenance (beauty in simplicity)
+alias rice-perfection="cd ~/.dotfiles && git pull && ./install.sh"
+alias wallpaper-zen="feh --bg-scale --randomize ~/wallpapers/anime-minimal/"
+alias system-poetry="neofetch --config ~/.config/neofetch/anime.conf"
 
-# 🎯 Productivity essentials  
-alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
+# 🎋 Focus & Flow State
+alias deep-work="killall discord; killall slack; echo '🧘 Entering the zone...'"
+alias coding-dojo="tmux new-session -s 'training' -c ~/projects"
 ```
 
 </td>
@@ -398,48 +399,86 @@ alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
 
 <div align="center">
 
-## <img src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif" width="35"> **Tech Badge Collection**
+## <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="35"> **Tech Arsenal Collection**
 
-<!-- AI/ML Badges -->
-<img src="https://custom-icon-badges.demolab.com/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<div align="center">
 
-<!-- Languages -->
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="600" alt="Tech Skills Banner" />
+
+</div>
+
+<!-- AI/ML Badges (Sakura Pink Theme) -->
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/🤗%20Hugging_Face-FFD21E?style=for-the-badge&logoColor=black" />
+<img src="https://img.shields.io/badge/LangChain-F5C2E7?style=for-the-badge&logo=chainlink&logoColor=black" />
+<img src="https://img.shields.io/badge/OpenAI-74AA9C?style=for-the-badge&logo=openai&logoColor=white" />
+
+<!-- Languages (Anime Palette) -->
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=306998" />
 <img src="https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-74CDDD?style=for-the-badge&logo=go&logoColor=white" />
 
-<!-- Cloud & Infrastructure -->
+<!-- Cloud & Infrastructure (Sky Theme) -->
 <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-8E75B2?style=for-the-badge&logo=terraform&logoColor=white" />
 
-<!-- Data -->
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" />
+<!-- Data Stack (Cherry Blossom) -->
+<img src="https://img.shields.io/badge/Apache_Kafka-FF6B9D?style=for-the-badge&logo=apache-kafka&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
-<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
+<img src="https://img.shields.io/badge/dbt-FF8FAB?style=for-the-badge&logo=dbt&logoColor=white" />
 <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
 
-<!-- DevOps/SecOps -->
-<img src="https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" />
-<img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
-<img src="https://img.shields.io/badge/Vault-000000?style=for-the-badge&logo=vault&logoColor=white" />
+<!-- DevOps/SecOps (Sunset Theme) -->
+<img src="https://img.shields.io/badge/Ansible-EE6C4D?style=for-the-badge&logo=ansible&logoColor=white" />
+<img src="https://img.shields.io/badge/Vault-FFD23F?style=for-the-badge&logo=vault&logoColor=black" />
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
 
-<!-- Tools & OS -->
+<!-- Aesthetic Tools (Pastel Dream) -->
 <img src="https://img.shields.io/badge/NeoVim-57A143?style=for-the-badge&logo=neovim&logoColor=white" />
 <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
-<img src="https://img.shields.io/badge/Hyprland-00AAFF?style=for-the-badge&logo=wayland&logoColor=white" />
+<img src="https://img.shields.io/badge/Hyprland-00D4FF?style=for-the-badge&logo=wayland&logoColor=white" />
 <img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white" />
 
-<!-- Personal Touch -->
+<!-- Signature Badges (Anime Special) -->
 <img src="https://img.shields.io/badge/I_Use_Arch-BTW-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
-<img src="https://img.shields.io/badge/Data_Engineer-@_Colonies-00D9FF?style=for-the-badge&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/Coffee_Level-Over_9000-8B4513?style=for-the-badge&logo=coffee&logoColor=white" />
-<img src="https://img.shields.io/badge/Theme_Master-Catppuccin-F5C2E7?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Data_Alchemist-@_Colonies-FF6B9D?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Matcha_Level-Over_9000-90C695?style=for-the-badge&logo=tea&logoColor=white" />
+<img src="https://img.shields.io/badge/Aesthetic_Master-Catppuccin-F5C2E7?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Manga_Wisdom-Vagabond_Spirit-8B7FD1?style=for-the-badge&logo=book&logoColor=white" />
+
+</div>
+
+<div align="center">
+
+## <img src="https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif" width="35"> **Manga & Inspiration Corner**
+
+```ascii
+╭─────────────────── 📚 Narrative Masters ───────────────────╮
+│                                                            │
+│  "The real fight isn't on the court, it's in your mind"   │
+│                        - Slam Dunk 🏀                      │
+│                                                            │
+╰────────────────────────────────────────────────────────────╯
+```
+
+**Literary Influences That Shape My Code Philosophy:**
+
+🎨 **Takehiko Inoue's Mastery:**
+- **Slam Dunk** 🏀 - *Persistence through failure, team synergy*
+- **Vagabond** ⚔️ - *The path of self-improvement and mastery* 
+- **Real** 🏀 - *Overcoming obstacles with determination*
+
+🗡️ **Epic Storytelling:**
+- **Berserk** (Kentaro Miura) - *Never giving up against impossible odds*
+- **Monster** (Naoki Urasawa) - *Attention to detail and psychological depth*
+- **Vinland Saga** (Makoto Yukimura) - *Growth through adversity*
+
+💡 *"Just like Miyamoto Musashi's journey in Vagabond, every bug is a teacher, every system failure is a path to enlightenment. Code with the spirit of a warrior-philosopher."*
+
+<img src="https://media.giphy.com/media/11ykUODgXjAXZu/giphy.gif" width="400" alt="Anime coding" />
 
 </div>
 
@@ -451,7 +490,7 @@ alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 15px;">
 
-<a href="https://www.linkedin.com/in/khalid-a-3b2813192/" target="_blank">
+<a href="https://www.linkedin.com/in/al-khali-data-alchemist/" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
@@ -459,11 +498,11 @@ alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
 <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=web&logoColor=white" alt="Portfolio"/>
 </a>
 
-<a href="mailto:khalid@example.com" target="_blank">
+<a href="mailto:al-khali@proton.me" target="_blank">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
-<a href="https://twitter.com/dila4hk" target="_blank">
+<a href="https://twitter.com/al_khali_dev" target="_blank">
 <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
 </a>
 
@@ -472,11 +511,14 @@ alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
 <br/>
 
 ```ascii
-╭─────────────────────────────────────────────────────╮
-│  🎯 Open for: AI/ML Research Collaboration          │
-│  🚀 Consulting: MLOps & System Architecture         │  
-│  🤝 Let's build the future of intelligent systems   │
-╰─────────────────────────────────────────────────────╯
+╭──────────────── 🌸 Available for Collaboration ───────────────────╮
+│                                                                   │
+│  🎯 AI/ML Research & Development                                  │
+│  🏗️ MLOps Pipeline Architecture & Consulting                      │  
+│  🤖 Intelligent Systems & Data Alchemy                            │
+│  🎌 Open Source Projects (with aesthetic excellence)              │
+│                                                                   │
+╰───────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -493,28 +535,39 @@ alias focus-mode="killall discord; killall slack; echo 'Deep work time'"
 
 <div align="center">
 
-### 🔥 **"From SQL queries to system optimization, from Terraform to perfect rice"**
+### 🌸 **"Like Musashi perfecting his sword technique, I craft code with precision and beauty"**
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900" alt="Anime banner" />
 
 ```rust
 use std::collections::HashMap;
+use std::path::Path;
 
 fn main() {
-    let mut engineer_profile = HashMap::new();
+    let mut data_alchemist = HashMap::new();
     
-    engineer_profile.insert("day_job", "Data Engineer @ Colonies 🏢");
-    engineer_profile.insert("night_hustle", "MLOps Freelancer 🌙");
-    engineer_profile.insert("os", "Arch Linux BTW 🐧");
-    engineer_profile.insert("wm", "Hyprland (efficient tiling) 🌊");
-    engineer_profile.insert("theme", "Catppuccin Mocha 🎨");
-    engineer_profile.insert("passion", "Open Source Everything 🚀");
-    engineer_profile.insert("philosophy", "Automation > Repetition ⚡");
+    // Professional Identity
+    data_alchemist.insert("alias", "Al-khali | Data Alchemist 🧙‍♂️");
+    data_alchemist.insert("day_craft", "Data Engineering @ Colonies 🏢");
+    data_alchemist.insert("night_art", "MLOps & AI Research 🌙");
+    data_alchemist.insert("dojo", "Arch Linux + Hyprland Zen 🐧");
+    data_alchemist.insert("aesthetic", "Catppuccin (like cherry blossoms) 🌸");
+    data_alchemist.insert("way", "Open Source Bushido 🗡️");
+    data_alchemist.insert("philosophy", "Continuous Kaizen ⚡");
     
-    println!("🦀 Rustacean by choice, efficiency by design");
-    println!("⚡ Powered by: coffee, curiosity & clean code");
+    // Inspiration Sources
+    let manga_wisdom = vec![
+        "Slam Dunk: Never give up, even when behind 🏀",
+        "Vagabond: Master your craft through discipline ⚔️", 
+        "Berserk: Face impossible challenges head-on 🗡️"
+    ];
     
-    // Coded with Neovim, crafted with precision, deployed with confidence
-    // Welcome to my digital workspace! 
-    // Last updated: 2025 - Continuously evolving
+    println!("🦀 Coding like a samurai, debugging like a detective");
+    println!("🌸 Powered by: matcha, manga wisdom & beautiful code");
+    
+    // Forged in Neovim, tempered by experience, deployed with honor
+    // 頑張って！(Ganbatte! - Do your best!)
+    // Last updated: 2025 - The journey continues...
 }
 ```
 
