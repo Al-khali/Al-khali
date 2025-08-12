@@ -458,7 +458,7 @@ alias coding-dojo="tmux new-session -s 'training' -c ~/projects"
 ```ascii
 ╭─────────────────── 📚 Narrative Masters ───────────────────╮
 │                                                            │
-│  "The real fight isn't on the court, it's in your mind"   │
+│  "The real fight isn't on the court, it's in your mind"    │
 │                        - Slam Dunk 🏀                      │
 │                                                            │
 ╰────────────────────────────────────────────────────────────╯
@@ -511,14 +511,14 @@ alias coding-dojo="tmux new-session -s 'training' -c ~/projects"
 <br/>
 
 ```ascii
-╭──────────────── 🌸 Available for Collaboration ───────────────────╮
-│                                                                   │
-│  🎯 AI/ML Research & Development                                  │
-│  🏗️ MLOps Pipeline Architecture & Consulting                      │  
-│  🤖 Intelligent Systems & Data Alchemy                            │
-│  🎌 Open Source Projects (with aesthetic excellence)              │
-│                                                                   │
-╰───────────────────────────────────────────────────────────────────╯
+    ╭──────────────── 🌸 Available for Collaboration ───────────────────╮
+    │                                                                   │
+    │  🎯 AI/ML Research & Development                                  │
+    │  🏗️ MLOps Pipeline Architecture & Consulting                      │
+    │  🤖 Intelligent Systems & Data Alchemy                            │
+    │  🎌 Open Source Projects (with aesthetic excellence)              │
+    │                                                                   │
+    ╰───────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
