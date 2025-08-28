@@ -13,9 +13,6 @@
 **Tools :** Neovim, tmux, zsh, Docker  
 **OS :** Arch Linux (btw)
 
-## Contact
-- 🌐 [Portfolio](https://main--khalidco.netlify.app/)
-- 📧 [Email](mailto:al-khali@proton.me)
+
 
 ---
-*"Code fast, hack faster"* 🚀
