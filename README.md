@@ -1,12 +1,12 @@
 # Al-khali
 
-👋 Salut ! Passionné de **Rust** et de **cybersécurité**.
+👋 Hello! Passionate about Rust and cybersecurity.
 
-## Mes centres d'intérêt
-- 🦀 **Rust enthusiast** - Développement de projets personnels
-- 🔐 **CTF player** - Capture The Flag et cybersécurité
-- 🐧 **Arch Linux** + Hyprland + Neovim
-- ⚡ **Low-level programming** et optimisation
+## My Interests
+- 🦀 **Rust Enthusiast** - Developing personal projects
+- 🔐 **CTF player** - Capture The Flag enjoyer on blue Team
+- 🐧 **Arch Linux** + Hyprland + rice + capuccino + Neovim 
+- ⚡ **Low-level programming** & Optimization
 
 ## Stack perso
 **Languages :** Rust, Python, C, Go  
