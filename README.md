@@ -85,9 +85,9 @@ Rust-powered Kafka processor with ClickHouse integration
 I'm open to collaborating on data engineering, MLOps, and systems programming projects. Feel free to reach out:
 
 <p>
-  <a href="https://www.linkedin.com/in/al-khali-data-alchemist/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/khalid-a-3b2813192/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
   <a href="https://main--khalidco.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=About.me&logoColor=white" /></a>
-  <a href="mailto:al-khali@proton.me"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:aourik.khalid@hotmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
