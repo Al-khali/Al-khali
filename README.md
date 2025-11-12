@@ -21,7 +21,7 @@ Languages     → Python • Rust • SQL • TypeScript
 Data          → Kafka • Spark • dbt • BigQuery
 MLOps         → PyTorch • Kubeflow • MLflow • Kubernetes
 Infrastructure → GCP/AWS • Terraform • Docker • Helm
-Tools         → Neovim • Arch Linux • Hyprland
+Tools         → Neovim • Arch Linux • niri
 ```
 
 <details>
