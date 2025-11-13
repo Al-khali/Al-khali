@@ -2,13 +2,12 @@
 
 # 🌊 Al-khali | Data Alchemist & Systems Architect
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Data+Engineer+%40+Colonies+%F0%9F%9A%80;MLOps+Architect+%7C+Rust+Enthusiast+%F0%9F%A6%80;Arch+Linux+Daily+Driver+%F0%9F%90%A7;Building+The+Future+of+Data+Infrastructure)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Data+Engineer+%40+Colonies+%F0%9F%9A%80;Learning+%26+Building+in+Public;Arch+Linux+Daily+Driver+%F0%9F%90%A7;Tech+Watch+%7C+Rust+Enthusiast+%F0%9F%A6%80)](https://git.io/typing-svg)
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=al-khali&style=for-the-badge&color=00d9ff" alt="profile views" />
   <img src="https://img.shields.io/badge/Focus-Data%20Engineering-00d9ff?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Lives-In%20The%20Terminal-00d9ff?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Loves-Open%20Source-00d9ff?style=for-the-badge" />
 </p>
 
 </div>
@@ -21,22 +20,22 @@
 class DataEngineer:
     def __init__(self):
         self.name = "Al-khali"
-        self.role = "Senior Data Engineer @ Colonies"
+        self.role = "Data Engineer @ Colonies"
         self.location = "Building data pipelines ☁️"
-        self.languages = ["Python", "Rust", "SQL", "TypeScript", "Go"]
-        self.architecture = ["Event-Driven", "Microservices", "Lambda"]
-        self.passion = ["MLOps", "Systems Programming", "Infrastructure as Code"]
+        self.languages = ["Python", "Rust", "SQL", "TypeScript"]
+        self.interests = ["Data Engineering", "MLOps", "Systems Programming"]
+        self.learning = "Always exploring new tech and deepening my craft"
         
     def say_hi(self):
-        print("Thanks for dropping by! Let's build something incredible together.")
+        print("Thanks for dropping by!")
+        print("This is my personal space for experimentation and learning.")
     
-    def current_focus(self):
-        return [
-            "🔥 Scaling real-time data pipelines with Kafka & Spark",
-            "🤖 Deploying production-grade LLMs with vLLM & Kubernetes",
-            "⚡ Optimizing data transformations in Rust (because speed matters)",
-            "🏗️ Architecting cloud-native infrastructure with Terraform"
-        ]
+    def about_this_github(self):
+        return {
+            "content": "Tech watch, old projects (kept for nostalgia), experiments",
+            "work": "Most of my professional work is on client/company repos",
+            "future": "Planning: Data tools in Rust, ML/DL projects, maybe a game in Lua"
+        }
 
 me = DataEngineer()
 me.say_hi()
@@ -119,71 +118,31 @@ me.say_hi()
 
 ---
 
-### 🚀 **Featured Projects**
+### 🗂️ **What You'll Find Here**
+
+> *Most of my professional work lives in private repos (client work & Colonies projects)*
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
-#### 🔨 DataForge
-> High-performance ETL framework built with Rust  
-
-**Stack:** `Rust` `Apache Arrow` `Tokio` `async/await`
-
-Blazing-fast data transformations leveraging zero-copy operations. Because Python is great, but sometimes you need *real* speed.
-
-**Key Features:**
-- ⚡ 10x faster than traditional Python ETL
-- 🔄 Streaming architecture for infinite datasets  
-- 🧵 Concurrent processing with work-stealing scheduler
+#### 📚 Tech Watch
+Exploring new technologies, frameworks, and tools. Experiments and proof-of-concepts as I learn.
 
 </td>
-<td width="50%">
+<td width="33%">
 
-#### 🤖 Neural Agent Framework
-> Production-ready multi-agent LLM orchestration
-
-**Stack:** `Python` `LangChain` `FastAPI` `PostgreSQL`
-
-Intelligent agent workflows with tool use, memory, and error recovery. Powers autonomous decision-making systems.
-
-**Key Features:**
-- 🧠 Advanced reasoning with ReAct patterns
-- 🔌 Plugin architecture for extensibility
-- 📊 Real-time monitoring & observability
+#### 🗄️ Archive
+Old projects kept for nostalgia and reference. Some outdated, but part of my journey.
 
 </td>
-</tr>
+<td width="33%">
 
-<tr>
-<td width="50%">
-
-#### 🌊 Stream Processor
-> Real-time event streaming engine
-
-**Stack:** `Rust` `Kafka` `ClickHouse` `Prometheus`
-
-Low-latency stream processing with exactly-once semantics. Built for financial data pipelines.
-
-**Key Features:**
-- 🎯 Sub-millisecond latency
-- 💾 Time-series optimized storage
-- 🔍 Complex event processing (CEP)
-
-</td>
-<td width="50%">
-
-#### ☁️ Cloud ML Orchestrator  
-> Multi-cloud ML pipeline manager
-
-**Stack:** `Go` `Kubernetes` `Terraform` `Argo Workflows`
-
-Deploy ML models anywhere. One API, every cloud.
-
-**Key Features:**
-- 🌐 Multi-cloud abstraction layer
-- 🔄 GitOps-driven deployments
-- 📈 Auto-scaling based on inference load
+#### 🔮 Future Ideas
+- Data tools in Rust
+- ML/DL experiments  
+- Maybe a game in Lua
+- Tools for data community
 
 </td>
 </tr>
@@ -191,7 +150,7 @@ Deploy ML models anywhere. One API, every cloud.
 
 <div align="center">
 
-**🔗 [More Projects in My Repos](https://github.com/al-khali?tab=repositories)** | **⭐ If you find something useful, star it!**
+**🔗 [Browse My Repos](https://github.com/al-khali?tab=repositories)**
 
 </div>
 
@@ -208,67 +167,38 @@ Deploy ML models anywhere. One API, every cloud.
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</div>
-
 ---
 
-### 📈 **Contribution Graph**
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=c9d1d9" alt="Contribution Graph" />
-</div>
-
----
-
-### 💼 **Professional Experience**
+### 💼 **Day Job**
 
 ```yaml
-current_role:
-  company: "Colonies"
-  position: "Senior Data Engineer"
-  focus:
-    - Real-time streaming architecture with Kafka ecosystem
-    - Cloud-native data lakes on GCP (BigQuery, Dataflow, Composer)
-    - Infrastructure as Code with Terraform & GitOps
-    - Building data quality frameworks & observability
-    
-freelance_work:
-  specialization: "MLOps & LLM Infrastructure"
-  projects:
-    - LLM fine-tuning pipelines (LoRA/QLoRA) on custom datasets
-    - Production model serving with vLLM & TensorRT
-    - Vector database architecture for RAG systems
-    - Multi-agent workflows for autonomous systems
-    
-open_source:
-  philosophy: "Give back to the community"
-  interests:
-    - Systems programming in Rust
-    - High-performance data tools
-    - Developer experience & tooling
+company: "Colonies"
+role: "Data Engineer"
+what_i_do:
+  - Building data pipelines with Kafka, Spark, dbt
+  - Cloud infrastructure on GCP (BigQuery, Dataflow, Composer)
+  - Infrastructure as Code with Terraform
+  - Data quality & observability
+
+note: "Most of this work lives in private repos"
 ```
 
 ---
 
-### 🎯 **Current Focus Areas**
+### 🧠 **Learning & Exploring**
 
 ```rust
-fn main() {
-    let focus_areas = vec![
-        "🔥 Real-time streaming architectures that scale",
-        "🤖 Production MLOps for LLMs (vLLM, Kubernetes, etc.)",
-        "⚡ Rust for data engineering (Arrow, Polars, DataFusion)",
-        "☁️ Multi-cloud infrastructure automation",
-        "🔐 AI Security & adversarial ML research",
-        "🎨 Beautiful terminal setups (ricing never stops)",
-    ];
-    
-    for (i, area) in focus_areas.iter().enumerate() {
-        println!("[{}] {}", i + 1, area);
-    }
+fn current_interests() -> Vec<&'static str> {
+    vec![
+        "📊 Data Engineering: Kafka, Spark, dbt, ClickHouse",
+        "🤖 MLOps: Model deployment, monitoring, LLM fine-tuning",
+        "⚡ Rust: Systems programming, performance optimization",
+        "☁️ Cloud Infrastructure: GCP, Terraform, Kubernetes",
+        "🎨 Terminal aesthetics (yes, ricing is a skill)",
+    ]
 }
+
+// Always learning, always building
 ```
 
 ---
@@ -277,8 +207,7 @@ fn main() {
 
 <div align="center">
 
-I'm always excited to collaborate on **data engineering**, **MLOps**, and **systems programming** projects.  
-Open to interesting opportunities, technical discussions, and open-source contributions!
+Open to interesting conversations about data engineering, tech, and building cool stuff.
 
 <p>
   <a href="https://www.linkedin.com/in/al-khali-data-alchemist/">
@@ -290,14 +219,18 @@ Open to interesting opportunities, technical discussions, and open-source contri
   <a href="mailto:al-khali@proton.me">
     <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://github.com/al-khali">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
 </p>
 
-### 💬 **Fun Facts**
+### 💬 **Random Facts**
 
-`btw I use Arch` • `neovim > *` • `{ } > ( )` • `tabs > spaces` (jk, 4 spaces) • `powered by coffee++` • `10x nerd`
+`btw I use Arch` • `neovim > *` • `{ } > ( )` • `powered by coffee++` 
+
+### 🎵 **Musical Fuel**
+
+**Jazz Fusion Enthusiast** 🎷 | Coding to Japanese fusion legends  
+🎸 T-Square • Casiopea • Masayoshi Takanaka • 80s-90s city pop vibes
+
+*Debugging at 3 AM hits different with smooth jazz fusion* ✨
 
 </div>
 
@@ -305,16 +238,10 @@ Open to interesting opportunities, technical discussions, and open-source contri
 
 <div align="center">
 
-### 🎵 **Currently Vibing To**
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31l5co4lqkzjt4lfes6p5pj4ufnm&cover_image=true&theme=novatorem&show_offline=false&background_color=0d1117&interchange=false&bar_color=00d9ff&bar_color_cover=true)](https://github.com/kittinan/spotify-github-profile)
-
----
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
 
 **⚡ "Talk is cheap. Show me the code." - Linus Torvalds**
 
-<sub>🐧 Arch Linux + Hyprland | ⚙️ Neovim + Tmux | ☕ Coffee-Driven Development | 🚀 Always Shipping</sub>
+<sub>🐧 Arch Linux + Hyprland | ⚙️ Neovim + Tmux | ☕ Coffee-Driven Development | 🚀 Learning & Building</sub>
 
 </div>
