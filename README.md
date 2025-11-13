@@ -21,6 +21,7 @@ class DataEngineer:
     def __init__(self):
         self.name = "Al-khali"
         self.role = "Data Engineer @ Colonies"
+        self.side_hustle = "MLOps Freelancer"
         self.location = "Building data pipelines ☁️"
         self.languages = ["Python", "Rust", "SQL", "TypeScript"]
         self.interests = ["Data Engineering", "MLOps", "Systems Programming"]
@@ -169,18 +170,27 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 ---
 
-### 💼 **Day Job**
+### 💼 **What I Do**
 
 ```yaml
-company: "Colonies"
-role: "Data Engineer"
-what_i_do:
-  - Building data pipelines with Kafka, Spark, dbt
-  - Cloud infrastructure on GCP (BigQuery, Dataflow, Composer)
-  - Infrastructure as Code with Terraform
-  - Data quality & observability
+day_job:
+  company: "Colonies"
+  role: "Data Engineer"
+  stack:
+    - Building data pipelines with Kafka, Spark, dbt
+    - Cloud infrastructure on GCP (BigQuery, Dataflow, Composer)
+    - Infrastructure as Code with Terraform
+    - Data quality & observability
+  note: "Most of this work lives in private repos"
 
-note: "Most of this work lives in private repos"
+freelance:
+  specialization: "MLOps"
+  services:
+    - LLM fine-tuning and deployment
+    - ML model serving and monitoring
+    - MLOps infrastructure setup
+    - Data pipeline architecture
+  status: "Available for projects"
 ```
 
 ---
