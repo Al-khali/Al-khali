@@ -174,21 +174,23 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=00d9ff&border_radius=5"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=al-khali&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=00d9ff&langs_count=8&border_radius=5"/>
-
 </div>
 
 <div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&theme=highcontrast&hide_border=true&background=0d1117&ring=00f5ff&fire=ff00ff&currStreakLabel=00f5ff&sideLabels=00d9ff&border_radius=5" alt="streak stats" />
-
+<a href="https://github.com/al-khali">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&theme=chartreuse-dark&count_private=true&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=00d9ff&border_radius=5"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=al-khali&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=00d9ff&langs_count=8&border_radius=5&card_width=320"/>
+</a>
 </div>
 
 <div align="center">
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com/?user=al-khali&theme=highcontrast&hide_border=true&background=0d1117&ring=00f5ff&fire=ff00ff&currStreakLabel=00f5ff&sideLabels=00d9ff&border_radius=5" alt="GitHub Streak" />
+</a>
+</div>
 
-<img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&title=MultiLanguage,Commits,PullRequest,Repositories,Experience" alt="trophies"/>
-
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&title=MultiLanguage,Commits,PullRequest,Repositories,Experience" alt="GitHub Trophies"/>
 </div>
 
 <div align="center">
@@ -207,19 +209,35 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&theme=react-dark&bg_color=0d1117&color=00d9ff&line=ff00ff&point=00f5ff&area=true&hide_border=true" alt="activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&theme=react-dark&bg_color=0d1117&color=00d9ff&line=ff00ff&point=00f5ff&area=true&hide_border=true&custom_title=Neural%20Activity%20Graph" alt="activity graph"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=al-khali&theme=nord_dark" alt="profile details"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=al-khali&theme=github_dark" alt="profile details"/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=al-khali&theme=nord_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=al-khali&theme=nord_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=al-khali&theme=github_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=al-khali&theme=github_dark"/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=al-khali&theme=nord_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=al-khali&theme=nord_dark&utcOffset=1"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=al-khali&theme=github_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=al-khali&theme=github_dark&utcOffset=1"/>
+
+</div>
+
+<br/>
+
+### 📊 Alternative Stats Views
+
+<div align="center">
+
+<!-- Contribution Heatmap -->
+<img src="https://ghchart.rshah.org/00f5ff/al-khali" alt="GitHub Contribution Chart" />
+
+<!-- Code Time Badge (if you set up WakaTime) -->
+<!-- Uncomment when WakaTime is configured:
+<img src="https://wakatime.com/badge/user/[YOUR_WAKATIME_ID].svg" alt="WakaTime"/>
+-->
 
 </div>
 
