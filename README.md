@@ -109,16 +109,43 @@ class DataEngineer:
 </details>
 
 <details>
-<summary><b>🖥️ Daily Drivers (btw I use Arch)</b></summary>
+<summary><b>🖥️ Daily Drivers</b></summary>
 <br/>
 
-![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
+```bash
+al-khali@wired:~$ uname -a && echo $EDITOR
+```
+
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-58E1FF?style=for-the-badge&logo=wayland&logoColor=black)
 ![Tmux](https://img.shields.io/badge/Tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)
 ![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white)
 
-*Dotfiles crafted with love. Ricing is a lifestyle. 🎨*
+**System Preferences:**
+- `btw I use Arch` • `neovim > *` • `{ } > ( )`
+- Dotfiles crafted with love • Ricing is a lifestyle 🎨
+
+</details>
+
+<details>
+<summary><b>🔐 Cybersec & Tools</b></summary>
+<br/>
+
+```bash
+al-khali@wired:~$ ls /usr/local/bin | grep -E "(vault|trivy|sops)"
+```
+
+![Vault](https://img.shields.io/badge/Vault-000000?style=for-the-badge&logo=vault&logoColor=FFD814)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
+![SOPS](https://img.shields.io/badge/SOPS-000000?style=for-the-badge&logo=mozilla&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+**Custom Badges:**
+
+![Code at Night](https://img.shields.io/badge/CODE_AT_NIGHT-3AM_VIBES-00f5ff?style=for-the-badge&labelColor=0d1117)
+![Coffee Powered](https://img.shields.io/badge/POWERED_BY-COFFEE++-ff00ff?style=for-the-badge&labelColor=0d1117)
+![Terminal Love](https://img.shields.io/badge/TERMINAL-AESTHETIC-00ff00?style=for-the-badge&labelColor=0d1117)
 
 </details>
 
@@ -281,6 +308,20 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 ---
 
+### ⚡ **Recent Neural Activity**
+
+```bash
+al-khali@wired:~$ git log --oneline --graph --decorate -n 8
+```
+
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
+
+<!--RECENT_ACTIVITY:last_update-->
+Last Updated: <!--RECENT_ACTIVITY:last_update_end-->
+
+---
+
 ### 💼 **System Processes**
 
 ```bash
@@ -340,7 +381,14 @@ fn current_state() -> &'static str {
 
 <div align="center">
 
-Open to interesting conversations about data engineering, tech, and building cool stuff.
+```bash
+al-khali@wired:~$ cat /etc/motd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Open to interesting conversations about:
+• Data Engineering • Tech Architecture • MLOps
+• Terminal Aesthetics • Building Cool Stuff
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 <p>
   <a href="https://www.linkedin.com/in/khalid-a-3b2813192/">
@@ -350,6 +398,18 @@ Open to interesting conversations about data engineering, tech, and building coo
     <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
   </a>
 </p>
+
+<br/>
+
+### 📝 **Guestbook**
+
+```bash
+al-khali@wired:~$ echo "Leave a message in the Wired..."
+```
+
+Want to leave a message? **[Sign the guestbook →](https://github.com/Al-khali/Al-khali/issues/new?title=Guestbook&labels=guestbook)**
+
+<sub>Messages appear as GitHub Issues • All visitors welcome to the Wired 🌐</sub>
 
 ### 💬 **System Info**
 
