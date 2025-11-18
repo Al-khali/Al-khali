@@ -1,13 +1,20 @@
 <div align="center">
 
-# 🌊 Al-khali | Data Alchemist & Systems Architect
+```
+██╗      █████╗ ██╗   ██╗███████╗██████╗      ██╗ ██╗
+██║     ██╔══██╗╚██╗ ██╔╝██╔════╝██╔══██╗    ███║███║
+██║     ███████║ ╚████╔╝ █████╗  ██████╔╝    ╚██║╚██║
+██║     ██╔══██║  ╚██╔╝  ██╔══╝  ██╔══██╗     ██║ ██║
+███████╗██║  ██║   ██║   ███████╗██║  ██║     ██║ ██║
+╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝     ╚═╝ ╚═╝
+```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Data+Engineer+%40+Colonies+%F0%9F%9A%80;Learning+%26+Building+in+Public;Arch+Linux+Daily+Driver+%F0%9F%90%A7;Tech+Watch+%7C+Rust+Enthusiast+%F0%9F%A6%80)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.demolab.com?font=VT323&size=24&duration=3000&pause=500&color=00F5FF&center=true&vCenter=true&width=600&height=50&lines=PRESENT+DAY+%E2%80%A2+PRESENT+TIME;Data+Engineer+%40+Colonies;Systems+%E2%80%A2+Pipelines+%E2%80%A2+Infrastructure;%E2%96%88+Connected+to+the+Wired+%E2%96%88" alt="Typing SVG" />
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=al-khali&style=for-the-badge&color=00d9ff" alt="profile views" />
-  <img src="https://img.shields.io/badge/Focus-Data%20Engineering-00d9ff?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Lives-In%20The%20Terminal-00d9ff?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=al-khali&style=flat-square&color=00d9ff&label=VISITORS" alt="visitors" />
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff00?style=flat-square&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/PROTOCOL-LAYER_7-00d9ff?style=flat-square&labelColor=0d1117" />
 </p>
 
 </div>
@@ -157,16 +164,66 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 ---
 
-### 📊 **GitHub Analytics**
+### 📊 **System Metrics**
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=al-khali&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8"/>
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║  NEURAL NETWORK ACTIVITY • WIRED CONNECTION ESTABLISHED  ║
+╚═══════════════════════════════════════════════════════════╝
+```
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=00d9ff&border_radius=5"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=al-khali&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=00d9ff&langs_count=8&border_radius=5"/>
+
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=al-khali&theme=highcontrast&hide_border=true&background=0d1117&ring=00f5ff&fire=ff00ff&currStreakLabel=00f5ff&sideLabels=00d9ff&border_radius=5" alt="streak stats" />
+
 </div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&title=MultiLanguage,Commits,PullRequest,Repositories,Experience" alt="trophies"/>
+
+</div>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/al-khali/al-khali/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/al-khali/al-khali/output/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/al-khali/al-khali/output/github-snake.svg" />
+</picture>
+
+</div>
+
+<details>
+<summary><b>📈 Advanced Analytics</b></summary>
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&theme=react-dark&bg_color=0d1117&color=00d9ff&line=ff00ff&point=00f5ff&area=true&hide_border=true" alt="activity graph"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=al-khali&theme=nord_dark" alt="profile details"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=al-khali&theme=nord_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=al-khali&theme=nord_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=al-khali&theme=nord_dark"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=al-khali&theme=nord_dark&utcOffset=1"/>
+
+</div>
+
+</details>
 
 ---
 
@@ -228,16 +285,26 @@ Open to interesting conversations about data engineering, tech, and building coo
   </a>
 </p>
 
-### 💬 **Random Facts**
+### 💬 **System Info**
 
-`btw I use Arch` • `neovim > *` • `{ } > ( )` • `powered by coffee++` 
+```
+$ neofetch --short
+────────────────────────────────────────
+btw I use Arch  •  neovim > *  •  { } > ( )
+powered by coffee++  •  debugging at 3AM
+────────────────────────────────────────
+```
 
-### 🎵 **Musical Fuel**
+### 🎵 **Background Process**
 
-**Jazz Fusion Enthusiast** 🎷 | Coding to Japanese fusion legends  
-🎸 T-Square • Casiopea • Masayoshi Takanaka • 80s-90s city pop vibes
-
-*Debugging at 3 AM hits different with smooth jazz fusion* ✨
+```yaml
+audio_stream:
+  genre: "Jazz Fusion / City Pop"
+  artists: ["T-Square", "Casiopea", "Masayoshi Takanaka"]
+  era: "80s-90s Japanese Fusion"
+  mood: "Late night coding sessions"
+  status: "▶ Now Playing..."
+```
 
 </div>
 
@@ -245,10 +312,18 @@ Open to interesting conversations about data engineering, tech, and building coo
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
+```
+───────────────────────────────────────────────────────────
+ ░▒▓ PRESENT DAY • PRESENT TIME ▓▒░
+───────────────────────────────────────────────────────────
+```
 
-**⚡ "Talk is cheap. Show me the code." - Linus Torvalds**
+<sub>⚡ "No matter where you go, everyone's connected." </sub>
 
-<sub>🐧 Arch Linux + Hyprland | ⚙️ Neovim + Tmux | ☕ Coffee-Driven Development | 🚀 Learning & Building</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer"/>
+
+<sub>
+🐧 Arch + Hyprland | ⚙️ Neovim + Tmux | ☕ Coffee-Driven | 🚀 Building in the Wired
+</sub>
 
 </div>
