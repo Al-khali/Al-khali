@@ -149,16 +149,7 @@ al-khali@wired:~$ ls /usr/local/bin | grep -E "(vault|trivy|sops)"
 
 </details>
 
-<details>
-<summary><b>🔐 Security & Tools</b></summary>
-<br/>
 
-![Vault](https://img.shields.io/badge/Vault-000000?style=for-the-badge&logo=vault&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
-![SOPS](https://img.shields.io/badge/SOPS-000000?style=for-the-badge&logo=mozilla&logoColor=white)
-![eBPF](https://img.shields.io/badge/eBPF-000000?style=for-the-badge&logo=linux&logoColor=white)
-
-</details>
 
 </div>
 
@@ -279,31 +270,15 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 <br/>
 
-### 🏙️ 3D Contribution Cityscape
-
-<div align="center">
-
-```
-╔════════════════════════════════════════════════════════╗
-║      NEURAL NETWORK TOPOLOGY • 3D VISUALIZATION        ║
-╚════════════════════════════════════════════════════════╝
-```
-
-<!-- 3D graph generates daily - first run in progress -->
-<img src="https://raw.githubusercontent.com/al-khali/al-khali/output/profile-3d-contrib/profile-gitblock.svg" alt="3D Contribution Graph" />
-
-<sub>⚙️ Generating... Run the "Generate 3D Contribution Graph" workflow manually to create immediately</sub>
-
-</div>
+<!-- 3D Graph removed - caused conflicts with snake workflow -->
+<!-- Alternative: Use gh skyline CLI locally to generate 3D STL files -->
 
 ### 📊 Alternative Stats Views
 
 <div align="center">
 
-<!-- Code Time Badge (if you set up WakaTime) -->
-<!-- Uncomment when WakaTime is configured:
-<img src="https://wakatime.com/badge/user/[YOUR_WAKATIME_ID].svg" alt="WakaTime"/>
--->
+<!-- WakaTime Badge (optional) -->
+<!-- <img src="https://wakatime.com/badge/user/[YOUR_ID].svg" alt="WakaTime"/> -->
 
 </div>
 
