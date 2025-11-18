@@ -289,7 +289,10 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 ╚════════════════════════════════════════════════════════╝
 ```
 
+<!-- 3D graph generates daily - first run in progress -->
 <img src="https://raw.githubusercontent.com/al-khali/al-khali/output/profile-3d-contrib/profile-gitblock.svg" alt="3D Contribution Graph" />
+
+<sub>⚙️ Generating... Run the "Generate 3D Contribution Graph" workflow manually to create immediately</sub>
 
 </div>
 
