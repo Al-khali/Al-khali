@@ -270,22 +270,33 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 <br/>
 
-### 🏙️ **3D Contribution Skyline (2025)**
+### 🏙️ **3D Contribution Graph**
 
 <div align="center">
 
 ```bash
-al-khali@wired:~$ gh skyline --year 2025
+al-khali@wired:~$ render --mode 3d --style cyberpunk
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Building neural network topology...
-Generating 3D cityscape from contribution data...
-✓ Skyline generated: Al-khali-2025-github-skyline.stl
+Rendering 3D contribution topology...
+Building neural network visualization...
+✓ 3D profile generated
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-**[📥 View/Download 3D Model](./Al-khali-2025-github-skyline.stl)** • **[🖨️ Ready for 3D Printing](./Al-khali-2025-github-skyline.stl)**
+<img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Graph"/>
 
-<sub>GitHub's native 3D viewer loads interactively above ↑ • Click the STL link to rotate & zoom the cityscape</sub>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Rainbow"/>
+
+<sub>🏙️ Interactive 3D visualization updates daily • Cyberpunk cityscape aesthetic</sub>
+
+<details>
+<summary><b>💿 More 3D Views</b></summary>
+<br/>
+
+<img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="Seasonal View"/>
+<img src="./profile-3d-contrib/profile-south-season-animate.svg" width="100%" alt="South View"/>
+
+</details>
 
 </div>
 
