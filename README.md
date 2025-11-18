@@ -17,36 +17,47 @@
   <img src="https://img.shields.io/badge/PROTOCOL-LAYER_7-00d9ff?style=flat-square&labelColor=0d1117" />
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/WIRED-CONNECTED-00f5ff?style=flat-square&logo=hackthebox&logoColor=00f5ff&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/NEURAL_LINK-ACTIVE-ff00ff?style=flat-square&logo=serverless&logoColor=ff00ff&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/SYSTEM-OPERATIONAL-00ff00?style=flat-square&logo=target&logoColor=00ff00&labelColor=0d1117" />
+</p>
+
 </div>
 
 ---
 
-### 👨‍💻 `whoami`
+### 👨‍💻 `$ whoami`
+
+```bash
+al-khali@wired:~$ cat /proc/self/status
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name:           Al-khali
+Role:           Data Engineer @ Colonies
+Side_Process:   MLOps Freelancer  
+Location:       Building data pipelines ☁️
+Languages:      Python | Rust | SQL | TypeScript | Go
+Interests:      Data Engineering | MLOps | Systems Programming
+Status:         Always exploring • deepening craft
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 ```python
 class DataEngineer:
     def __init__(self):
-        self.name = "Al-khali"
-        self.role = "Data Engineer @ Colonies"
-        self.side_hustle = "MLOps Freelancer"
-        self.location = "Building data pipelines ☁️"
-        self.languages = ["Python", "Rust", "SQL", "TypeScript"]
-        self.interests = ["Data Engineering", "MLOps", "Systems Programming"]
-        self.learning = "Always exploring new tech and deepening my craft"
+        self.current_mission = "Building scalable data infrastructure"
+        self.passion = ["Data pipelines", "ML systems", "Terminal aesthetics"]
+        self.workspace = "Arch Linux + Hyprland + Neovim"
         
-    def say_hi(self):
-        print("Thanks for dropping by!")
-        print("This is my personal space for experimentation and learning.")
-    
     def about_this_github(self):
         return {
-            "content": "Tech watch, old projects (kept for nostalgia), experiments",
-            "work": "Most of my professional work is on client/company repos",
-            "future": "Planning: Data tools in Rust, ML/DL projects, maybe a game in Lua"
+            "content": "Tech watch, experiments, learning in public",
+            "work": "Most professional work lives in private repos",
+            "future": "Data tools in Rust • ML/DL projects • Maybe a game in Lua"
         }
 
-me = DataEngineer()
-me.say_hi()
+# >>> DataEngineer().about_this_github()
+# Thanks for dropping by! This is my space for experimentation.
 ```
 
 ---
@@ -203,6 +214,20 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 </div>
 
+<br/>
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════╗
+║           CONTRIBUTION HEATMAP • YEAR 2025             ║
+╚════════════════════════════════════════════════════════╝
+```
+
+<img src="https://ghchart.rshah.org/00f5ff/al-khali" alt="GitHub Contribution Chart" />
+
+</div>
+
 <details>
 <summary><b>📈 Advanced Analytics</b></summary>
 <br/>
@@ -227,12 +252,23 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 <br/>
 
-### 📊 Alternative Stats Views
+### 🏙️ 3D Contribution Cityscape
 
 <div align="center">
 
-<!-- Contribution Heatmap -->
-<img src="https://ghchart.rshah.org/00f5ff/al-khali" alt="GitHub Contribution Chart" />
+```
+╔════════════════════════════════════════════════════════╗
+║      NEURAL NETWORK TOPOLOGY • 3D VISUALIZATION        ║
+╚════════════════════════════════════════════════════════╝
+```
+
+<img src="https://raw.githubusercontent.com/al-khali/al-khali/output/profile-3d-contrib/profile-gitblock.svg" alt="3D Contribution Graph" />
+
+</div>
+
+### 📊 Alternative Stats Views
+
+<div align="center">
 
 <!-- Code Time Badge (if you set up WakaTime) -->
 <!-- Uncomment when WakaTime is configured:
@@ -245,7 +281,11 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 ---
 
-### 💼 **What I Do**
+### 💼 **System Processes**
+
+```bash
+al-khali@wired:~$ ps aux | grep active_missions
+```
 
 ```yaml
 day_job:
@@ -268,22 +308,30 @@ freelance:
   status: "Available for projects"
 ```
 
+```bash
+al-khali@wired:~$ echo $STATUS
+> OPERATIONAL • BUILDING • LEARNING
+```
+
 ---
 
 ### 🧠 **Learning & Exploring**
 
-```rust
-fn current_interests() -> Vec<&'static str> {
-    vec![
-        "📊 Data Engineering: Kafka, Spark, dbt, ClickHouse",
-        "🤖 MLOps: Model deployment, monitoring, LLM fine-tuning",
-        "⚡ Rust: Systems programming, performance optimization",
-        "☁️ Cloud Infrastructure: GCP, Terraform, Kubernetes",
-        "🎨 Terminal aesthetics (yes, ricing is a skill)",
-    ]
-}
+```bash
+al-khali@wired:~$ cat interests.log | tail -5
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2025-11-18] 📊 Data Engineering: Kafka, Spark, dbt, ClickHouse
+[2025-11-18] 🤖 MLOps: Model deployment, monitoring, LLM fine-tuning
+[2025-11-18] ⚡ Rust: Systems programming, performance optimization
+[2025-11-18] ☁️ Cloud Infrastructure: GCP, Terraform, Kubernetes
+[2025-11-18] 🎨 Terminal aesthetics (yes, ricing is a skill)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
-// Always learning, always building
+```rust
+fn current_state() -> &'static str {
+    "Always learning, always building, always in the terminal"
+}
 ```
 
 ---
@@ -305,15 +353,25 @@ Open to interesting conversations about data engineering, tech, and building coo
 
 ### 💬 **System Info**
 
-```
-$ neofetch --short
-────────────────────────────────────────
-btw I use Arch  •  neovim > *  •  { } > ( )
-powered by coffee++  •  debugging at 3AM
-────────────────────────────────────────
+```bash
+al-khali@wired:~$ neofetch --config minimal.conf
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OS        → Arch Linux (btw)
+Shell     → zsh + oh-my-zsh
+Editor    → neovim > *
+WM        → Hyprland (Wayland)
+Terminal  → Alacritty + Tmux
+Brackets  → { } > ( )
+Fuel      → coffee++
+Status    → debugging at 3AM • connected to the Wired
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ### 🎵 **Background Process**
+
+```bash
+al-khali@wired:~$ playerctl metadata --format '{{ artist }} - {{ title }}'
+```
 
 ```yaml
 audio_stream:
@@ -322,6 +380,8 @@ audio_stream:
   era: "80s-90s Japanese Fusion"
   mood: "Late night coding sessions"
   status: "▶ Now Playing..."
+  
+# Coding to smooth jazz fusion hits different at 3AM ✨
 ```
 
 </div>
