@@ -270,8 +270,24 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 <br/>
 
-<!-- 3D Graph removed - caused conflicts with snake workflow -->
-<!-- Alternative: Use gh skyline CLI locally to generate 3D STL files -->
+### 🏙️ **3D Contribution Skyline (2025)**
+
+<div align="center">
+
+```bash
+al-khali@wired:~$ gh skyline --year 2025
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Building neural network topology...
+Generating 3D cityscape from contribution data...
+✓ Skyline generated: Al-khali-2025-github-skyline.stl
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**[📥 View/Download 3D Model](./Al-khali-2025-github-skyline.stl)** • **[🖨️ Ready for 3D Printing](./Al-khali-2025-github-skyline.stl)**
+
+<sub>GitHub's native 3D viewer loads interactively above ↑ • Click the STL link to rotate & zoom the cityscape</sub>
+
+</div>
 
 ### 📊 Alternative Stats Views
 
