@@ -94,7 +94,7 @@ https://img.shields.io/badge/[LABEL]-[MESSAGE]-[COLOR]?style=flat-square
 
 ## 🎨 Aesthetic Tips
 
-### Working Widget Sources (Nov 2024)
+### Working Widget Sources (Nov 2025)
 
 **Stats Cards:**
 - `github-readme-stats.vercel.app` - Stats & Languages (working)
@@ -172,7 +172,7 @@ Pour forcer une mise à jour:
 5. **Évite `include_all_commits=true`** sur stats (cause rate limits)
 6. Si un service tombe, remplace l'URL par une alternative
 
-## 🔄 Maintenance Notes (Nov 2024)
+## 🔄 Maintenance Notes (Nov 2025)
 
 **Services qui fonctionnent:**
 - ✅ `github-readme-stats.vercel.app` (stats)
