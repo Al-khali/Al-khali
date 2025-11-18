@@ -223,7 +223,7 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 <div align="center">
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com/?user=al-khali&theme=highcontrast&hide_border=true&background=0d1117&ring=00f5ff&fire=ff00ff&currStreakLabel=00f5ff&sideLabels=00d9ff&border_radius=5" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-sigma-five.vercel.app?user=al-khali&theme=dark&hide_border=true&background=0d1117&stroke=00f5ff&ring=00f5ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00d9ff&currStreakLabel=00f5ff&sideLabels=00d9ff&dates=00d9ff" alt="GitHub Streak" />
 </a>
 </div>
 
