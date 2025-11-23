@@ -14,7 +14,7 @@
 <p>
   <img src="https://komarev.com/ghpvc/?username=al-khali&style=flat-square&color=00d9ff&label=VISITORS" alt="visitors" />
   <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff00?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/PROTOCOL-LAYER_7-00d9ff?style=flat-square&labelColor=0d1117" />
+  <img src="https://img.shields.io/github/last-commit/al-khali/al-khali?style=flat-square&label=LAST%20SIGNAL&color=00d9ff&labelColor=0d1117" />
 </p>
 
 <p>
@@ -206,20 +206,9 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 </div>
 
 <div align="center">
-<a href="https://github.com/al-khali">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&theme=chartreuse-dark&count_private=true&hide_border=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=00d9ff&border_radius=5"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=al-khali&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f5ff&text_color=00d9ff&langs_count=8&border_radius=5&card_width=320"/>
-</a>
-</div>
-
-<div align="center">
 <a href="https://git.io/streak-stats">
   <img src="https://github-readme-streak-stats-sigma-five.vercel.app?user=al-khali&theme=dark&hide_border=true&background=0d1117&stroke=00f5ff&ring=00f5ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00d9ff&currStreakLabel=00f5ff&sideLabels=00d9ff&dates=00d9ff" alt="GitHub Streak" />
 </a>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=matrix&no-frame=true&no-bg=true&margin-w=4&column=7&title=MultiLanguage,Commits,PullRequest,Repositories,Experience" alt="GitHub Trophies"/>
 </div>
 
 <div align="center">
@@ -232,45 +221,9 @@ Old projects kept for nostalgia and reference. Some outdated, but part of my jou
 
 </div>
 
-<br/>
-
-<div align="center">
-
-```
-╔════════════════════════════════════════════════════════╗
-║           CONTRIBUTION HEATMAP • YEAR 2025             ║
-╚════════════════════════════════════════════════════════╝
-```
-
-<img src="https://ghchart.rshah.org/00f5ff/al-khali" alt="GitHub Contribution Chart" />
-
-</div>
-
 <details>
-<summary><b>📈 Advanced Analytics</b></summary>
+<summary><b>🏙️ 3D Contribution Cityscape</b></summary>
 <br/>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&theme=react-dark&bg_color=0d1117&color=00d9ff&line=ff00ff&point=00f5ff&area=true&hide_border=true&custom_title=Neural%20Activity%20Graph" alt="activity graph"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=al-khali&theme=github_dark" alt="profile details"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=al-khali&theme=github_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=al-khali&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=al-khali&theme=github_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=al-khali&theme=github_dark&utcOffset=1"/>
-
-</div>
-
-<br/>
-
-### 🏙️ **3D Contribution Graph**
 
 <div align="center">
 
@@ -300,12 +253,15 @@ Building neural network visualization...
 
 </div>
 
-### 📊 Alternative Stats Views
+<br/>
+
+### ⏰ When I Code
 
 <div align="center">
 
-<!-- WakaTime Badge (optional) -->
-<!-- <img src="https://wakatime.com/badge/user/[YOUR_ID].svg" alt="WakaTime"/> -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=al-khali&theme=github_dark&utcOffset=1"/>
+
+<sub>Peak neural activity hours • UTC+1</sub>
 
 </div>
 
@@ -313,17 +269,17 @@ Building neural network visualization...
 
 ---
 
-### ⚡ **Recent Neural Activity**
+### ⚡ **Neural Transmission**
 
 ```bash
-al-khali@wired:~$ git log --oneline --graph --decorate -n 8
+al-khali@wired:~$ fortune | cowsay -f tux
 ```
 
-<!--RECENT_ACTIVITY:start-->
-<!--RECENT_ACTIVITY:end-->
+<a href="https://github.com/piyushsuthar/github-readme-quotes">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" alt="Dev Quote"/>
+</a>
 
-<!--RECENT_ACTIVITY:last_update-->
-Last Updated: <!--RECENT_ACTIVITY:last_update_end-->
+<sub>💡 Wisdom from the Wired • Refresh for new transmission</sub>
 
 ---
 
