@@ -43,6 +43,12 @@ Status:         Always exploring • deepening craft
 ```
 
 ```python
+class AiEngineer:
+    def __init__(self):
+        self.current_mission = "Building Agentic Ai / Ai Workflow"
+        self.passion = ["PromptEngineering", "Ai Agentic Orchestration", "LLm Eval."]
+        self.workspace = "VertexAi + GCP + ADK"
+        
 class DataEngineer:
     def __init__(self):
         self.current_mission = "Building scalable data infrastructure"
