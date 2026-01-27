@@ -33,7 +33,7 @@
 al-khali@wired:~$ cat /proc/self/status
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Name:           Al-khali
-Role:           Data Engineer @ Colonies
+Role:           AI Engineer @Valtech
 Side_Process:   MLOps Freelancer  
 Location:       Building data pipelines ☁️
 Languages:      Python | Rust | SQL | TypeScript | Go
