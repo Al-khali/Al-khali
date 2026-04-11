@@ -1,0 +1,105 @@
+<svg width="760" height="196" viewBox="0 0 760 196" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow-cc" cx="88%" cy="12%" r="45%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="196" rx="8" fill="#07030f"/>
+  <rect width="760" height="196" rx="8" fill="url(#glow-cc)"/>
+  <rect width="760" height="196" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+
+  <style>
+    .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
+
+    @keyframes cursor-blink {
+      0%,3%   { opacity:1 } 4%,8%     { opacity:0 }
+      9%,13%  { opacity:1 } 14%,18%   { opacity:0 }
+      19%,23% { opacity:1 } 24%,28%   { opacity:0 }
+      29%,33% { opacity:1 } 34%,38%   { opacity:0 }
+      39%,100%{ opacity:0 }
+    }
+    @keyframes l1 {
+      0%,10%{ opacity:0 } 14%,86%{ opacity:1 } 92%,100%{ opacity:0 }
+    }
+    @keyframes l2 {
+      0%,20%{ opacity:0 } 24%,86%{ opacity:1 } 92%,100%{ opacity:0 }
+    }
+    @keyframes l3 {
+      0%,30%{ opacity:0 } 34%,86%{ opacity:1 } 92%,100%{ opacity:0 }
+    }
+    @keyframes l4 {
+      0%,41%{ opacity:0 } 45%,86%{ opacity:1 } 92%,100%{ opacity:0 }
+    }
+    @keyframes l5 {
+      0%,52%{ opacity:0 } 56%,86%{ opacity:1 } 92%,100%{ opacity:0 }
+    }
+    @keyframes l6 {
+      0%,63%{ opacity:0 } 67%,86%{ opacity:1 } 92%,100%{ opacity:0 }
+    }
+
+    .cursor { animation: cursor-blink 9s step-end infinite; opacity:0; }
+    .l1 { animation: l1 9s ease infinite; opacity:0; }
+    .l2 { animation: l2 9s ease infinite; opacity:0; }
+    .l3 { animation: l3 9s ease infinite; opacity:0; }
+    .l4 { animation: l4 9s ease infinite; opacity:0; }
+    .l5 { animation: l5 9s ease infinite; opacity:0; }
+    .l6 { animation: l6 9s ease infinite; opacity:0; }
+  </style>
+
+  <!-- Prompt (always visible) -->
+  <text class="mono" y="44">
+    <tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">claude</tspan><tspan fill="#6d6bcd"> "update my github profile"</tspan>
+  </text>
+
+  <!-- Blinking block cursor -->
+  <rect class="cursor" x="340" y="30" width="8" height="16" rx="1" fill="#a855f7"/>
+
+  <!-- Divider -->
+  <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
+
+  <!-- Tool: Read -->
+  <text class="mono l1" y="76">
+    <tspan x="40" fill="#5b21b6">◆ </tspan>
+    <tspan fill="#a78bfa">Read</tspan>
+    <tspan fill="#2e1060">  ·  </tspan>
+    <tspan fill="#7c5cb0">README.md</tspan>
+  </text>
+
+  <!-- Tool: Write whoami -->
+  <text class="mono l2" y="98">
+    <tspan x="40" fill="#5b21b6">◆ </tspan>
+    <tspan fill="#a78bfa">Write</tspan>
+    <tspan fill="#2e1060">  ·  </tspan>
+    <tspan fill="#c084fc">assets/whoami.svg</tspan>
+  </text>
+
+  <!-- Tool: Write stack -->
+  <text class="mono l3" y="120">
+    <tspan x="40" fill="#5b21b6">◆ </tspan>
+    <tspan fill="#a78bfa">Write</tspan>
+    <tspan fill="#2e1060">  ·  </tspan>
+    <tspan fill="#c084fc">assets/stack.svg</tspan>
+  </text>
+
+  <!-- Tool: Bash -->
+  <text class="mono l4" y="142">
+    <tspan x="40" fill="#5b21b6">◆ </tspan>
+    <tspan fill="#a78bfa">Bash</tspan>
+    <tspan fill="#2e1060">  ·  </tspan>
+    <tspan fill="#7c5cb0">git push origin main</tspan>
+  </text>
+
+  <!-- Done -->
+  <text class="mono l5" y="164">
+    <tspan x="40" fill="#7c3aed">✓ </tspan>
+    <tspan fill="#c084fc">Done</tspan>
+    <tspan fill="#2e1060">  ·  </tspan>
+    <tspan fill="#9d7cc0">4 tools used  ·  3 files written</tspan>
+  </text>
+
+  <!-- Wired tagline -->
+  <text class="mono l6" y="186" fill="#3b1d6b" font-style="italic">
+    <tspan x="40">the wired never sleeps.</tspan>
+  </text>
+</svg>

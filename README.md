@@ -56,6 +56,8 @@
 
 </div>
 
+<img src="./assets/claude-code.svg" width="100%" alt="claude code session"/>
+
 ---
 
 <div align="center">
