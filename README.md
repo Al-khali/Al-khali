@@ -55,8 +55,26 @@ drwxr-x  daily/
 
 <div align="center">
 
+<img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=onedark&no-bg=true&no-frame=true&column=4&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A" alt="trophies" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&hide=contribs&show=reviews,discussions_started,prs_merged_percentage&rank_icon=percentile&include_all_commits=true" alt="stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook" alt="top langs" />
+
+</div>
+
+---
+
+<div align="center">
+
 <a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=true&background=0d001a&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=9333ea22" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=false&background=07030f&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=3b1d6b" alt="GitHub Streak" />
 </a>
 
 </div>
@@ -87,6 +105,6 @@ drwxr-x  daily/
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/khalid-a-3b2813192/">linkedin</a> · <a href="mailto:aourik.khalid@hotmail.com">email</a> · <a href="https://github.com/Al-khali/Al-khali/issues/new?title=Guestbook&labels=guestbook">guestbook</a>
+<a href="https://www.linkedin.com/in/khalid-a-3b2813192/">linkedin</a>
 
 </div>
