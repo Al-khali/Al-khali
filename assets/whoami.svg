@@ -1,0 +1,71 @@
+<svg width="760" height="234" viewBox="0 0 760 234" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow-w" cx="92%" cy="8%" r="45%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="234" rx="8" fill="#07030f"/>
+  <rect width="760" height="234" rx="8" fill="url(#glow-w)"/>
+  <rect width="760" height="234" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <style>
+    .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
+  </style>
+
+  <!-- Prompt -->
+  <text class="mono" y="44">
+    <tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">whoami</tspan><tspan fill="#6d6bcd"> --verbose</tspan>
+  </text>
+
+  <!-- Divider -->
+  <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
+
+  <!-- name -->
+  <text class="mono" y="76">
+    <tspan x="40" fill="#7c5cb0">name</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#c084fc">Al-khali</tspan>
+  </text>
+
+  <!-- role -->
+  <text class="mono" y="98">
+    <tspan x="40" fill="#7c5cb0">role</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#c084fc">AI Engineer </tspan><tspan fill="#6b4fa0">@ Valtech</tspan>
+  </text>
+
+  <!-- focus -->
+  <text class="mono" y="120">
+    <tspan x="40" fill="#7c5cb0">focus</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#c084fc">GenAI </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">RAG </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">LLMOps </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">AI Agents</tspan>
+  </text>
+
+  <!-- cloud -->
+  <text class="mono" y="142">
+    <tspan x="40" fill="#7c5cb0">cloud</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#c084fc">GCP Specialist </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Vertex AI </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">ADK</tspan>
+  </text>
+
+  <!-- os -->
+  <text class="mono" y="164">
+    <tspan x="40" fill="#7c5cb0">os</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#9d7cc0">Arch Linux </tspan><tspan fill="#3b1060">/ </tspan><tspan fill="#9d7cc0">Hyprland</tspan>
+  </text>
+
+  <!-- editor -->
+  <text class="mono" y="186">
+    <tspan x="40" fill="#7c5cb0">editor</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#9d7cc0">Neovim</tspan>
+  </text>
+
+  <!-- shell -->
+  <text class="mono" y="208">
+    <tspan x="40" fill="#7c5cb0">shell</tspan>
+    <tspan x="130" fill="#2e1060">:</tspan>
+    <tspan x="148" fill="#9d7cc0">zsh </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">tmux </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">alacritty</tspan>
+  </text>
+</svg>

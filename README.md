@@ -8,48 +8,15 @@
 
 <br/>
 
-```bash
-❯ whoami --verbose
-
-  name       : Al-khali
-  role       : AI Engineer @ Valtech
-  focus      : GenAI · RAG · LLMOps · AI Agents
-  cloud      : GCP Specialist · Vertex AI · ADK
-  os         : Arch Linux / Hyprland
-  editor     : Neovim
-  shell      : zsh · tmux · alacritty
-```
+<img src="./assets/whoami.svg" width="100%" alt="whoami --verbose"/>
 
 ---
 
-```bash
-❯ ls -la ~/stack
-
-drwxr-x  ai/
-  ├─  vertex-ai · adk · rag · llmops · langchain · gemini
-
-drwxr-x  data/
-  ├─  bigquery · dbt · airflow · fivetran · kafka · spark
-
-drwxr-x  cloud/
-  ├─  gcp · terraform · docker · kubernetes · cloud-run
-
-drwxr-x  languages/
-  ├─  python · rust · go · sql · typescript
-
-drwxr-x  daily/
-  └─  arch · neovim · hyprland · tmux · alacritty
-```
+<img src="./assets/stack.svg" width="100%" alt="ls ~/stack"/>
 
 ---
 
-```bash
-❯ cat ~/now
-
-  exploring  :  mcp-web · graph-rag · streamable-http
-  obsessing  :  multi-agent-systems · agent-evals · a2a-protocol
-  reading    :  ebpf · rust-async · llm-internals
-```
+<img src="./assets/now.svg" width="100%" alt="cat ~/now"/>
 
 ---
 
