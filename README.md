@@ -22,7 +22,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats-salesp07.vercel.app/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&rank_icon=percentile" alt="stats" />
+<img src="https://github-readme-stats-salesp07.vercel.app/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&count_private=true&rank_icon=percentile" alt="stats" />
 
 <img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook" alt="top langs" />
 
