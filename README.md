@@ -1,8 +1,14 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07030f,50:3b1d6b,100:9333ea&height=160&section=header&text=Al-khali&fontSize=60&fontColor=c084fc&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%7C%20GCP%20%7C%20RAG%20%7C%20LLMOps&descAlignY=65&descColor=9333ea&descSize=16" width="100%" />
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3000&pause=1000&color=9333EA&center=true&vCenter=true&width=500&height=30&lines=%22No+matter+where+you+go%2C+everyone%27s+connected.%22" alt="Lain quote" />
 
 <sub><i>— serial experiments lain · layer:07</i></sub>
+
+<br/>
+
+[![views](https://komarev.com/ghpvc/?username=al-khali&style=flat-square&color=9333ea&label=VIEWS&abbreviated=true)](https://github.com/al-khali)
 
 </div>
 
@@ -13,6 +19,12 @@
 ---
 
 <img src="./assets/stack.svg" width="100%" alt="ls ~/stack"/>
+
+<div align="center">
+
+[![skillicons](https://skillicons.dev/icons?i=python,rust,go,ts,gcp,terraform,docker,kubernetes,neovim,linux&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ---
 
@@ -77,3 +89,5 @@
 <a href="https://www.linkedin.com/in/khalid-a-3b2813192/">linkedin</a>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:9333ea,50:3b1d6b,100:07030f&height=120&section=footer" width="100%" />
