@@ -32,14 +32,6 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=al-khali&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" alt="trophies" />
-
-</div>
-
----
-
-<div align="center">
-
 <a href="https://streak-stats.demolab.com?user=al-khali">
   <img src="https://streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=false&background=07030f&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=3b1d6b" alt="GitHub Streak" />
 </a>
