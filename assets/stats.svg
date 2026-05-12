@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">khalid a.'s GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 1859, Total PRs: 216, Total Issues: 324, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 1871, Total PRs: 217, Total Issues: 368, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 113.43131615076904;
+        stroke-dashoffset: 113.29050668497294;
       }
     }
   
@@ -195,7 +195,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >216</text>
+      >217</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -210,7 +210,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >324</text>
+      >368</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
