@@ -13,20 +13,64 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch trophies
+      - name: Fetch cards (robust)
+        env:
+          STATS_API_URL: ${{ secrets.STATS_API_URL }}
         run: |
-          curl -s "https://github-profile-trophy.vercel.app/?username=al-khali&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" \
-            -o assets/trophies.svg
+          set -uo pipefail
 
-      - name: Fetch stats card
-        run: |
-          curl -s "${{ secrets.STATS_API_URL }}/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&count_private=true&rank_icon=percentile" \
-            -o assets/stats.svg
+          # Fetch an SVG card and only overwrite the committed file if it is a
+          # valid, non-error card. Three failure modes are guarded:
+          #   1. Leading whitespace — github-readme-stats serves the SVG with a
+          #      leading newline + indentation. That is fine over HTTP (the
+          #      image/svg+xml content-type forces rendering) but a committed
+          #      file that does not start with "<svg"/"<?xml" is treated as a
+          #      broken image by GitHub. We strip the leading whitespace.
+          #   2. A dead/missing backend — e.g. Railway returning a JSON
+          #      "Application not found" body. curl -s would exit 0 and clobber
+          #      a good SVG with that JSON. We use curl -f + retries and require
+          #      the body to actually be an SVG.
+          #   3. An error card from a degraded instance ("Something went wrong",
+          #      rate limit, bad credentials).
+          fetch_svg() {
+            local url="$1" out="$2" must_match="$3"
+            local tmp; tmp="$(mktemp)"
 
-      - name: Fetch top langs card
-        run: |
-          curl -s "${{ secrets.STATS_API_URL }}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook&count_private=true" \
-            -o assets/top-langs.svg
+            if ! curl -fsS --retry 3 --retry-delay 5 --max-time 30 "$url" -o "$tmp"; then
+              echo "::warning::fetch failed for $out — keeping existing file"
+              rm -f "$tmp"; return 0
+            fi
+
+            # Drop leading whitespace so the file starts with the SVG root tag.
+            perl -0777 -i -pe 's/\A\s+//' "$tmp"
+
+            if ! head -c 5 "$tmp" | grep -q '<svg' \
+               || ! grep -q '</svg>' "$tmp" \
+               || grep -qiE 'something went wrong|max(imum)? retries|bad credentials|invalid username|application not found' "$tmp"; then
+              echo "::warning::not a valid SVG card for $out — keeping existing file"
+              rm -f "$tmp"; return 0
+            fi
+
+            if [ -n "$must_match" ] && ! grep -qiF "$must_match" "$tmp"; then
+              echo "::warning::expected content '$must_match' missing for $out — keeping existing file"
+              rm -f "$tmp"; return 0
+            fi
+
+            mv "$tmp" "$out"
+            echo "updated $out"
+          }
+
+          fetch_svg \
+            "https://github-profile-trophy.vercel.app/?username=al-khali&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" \
+            assets/trophies.svg ""
+
+          fetch_svg \
+            "${STATS_API_URL}/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&count_private=true&rank_icon=percentile" \
+            assets/stats.svg "GitHub Stats"
+
+          fetch_svg \
+            "${STATS_API_URL}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook&count_private=true" \
+            assets/top-langs.svg "Most Used"
 
       - name: Commit updated SVGs
         run: |
