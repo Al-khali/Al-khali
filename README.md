@@ -34,9 +34,9 @@
 
 <div align="center">
 
-<img src="./assets/stats.svg" alt="stats" />
+<img src="./assets/stats.svg?v=20260702b" alt="stats" />
 
-<img src="./assets/top-langs.svg" alt="top langs" />
+<img src="./assets/top-langs.svg?v=20260702b" alt="top langs" />
 
 </div>
 
