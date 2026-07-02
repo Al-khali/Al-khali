@@ -34,9 +34,9 @@
 
 <div align="center">
 
-<img src="./assets/stats.svg?v=20260702b" alt="stats" />
+<img src="./assets/stats.svg?v=20260703" alt="stats" />
 
-<img src="./assets/top-langs.svg?v=20260702b" alt="top langs" />
+<img src="./assets/top-langs.svg?v=20260703" alt="top langs" />
 
 </div>
 
@@ -45,7 +45,7 @@
 <div align="center">
 
 <a href="https://streak-stats.demolab.com?user=al-khali">
-  <img src="https://streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=false&background=07030f&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=3b1d6b&_cb=20260621" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=false&background=07030f&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=3b1d6b&_cb=20260703" alt="GitHub Streak" />
 </a>
 
 </div>
@@ -54,7 +54,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&bg_color=07030f&color=c084fc&line=9333ea&point=6366f1&area=true&hide_border=false&border_color=3b1d6b&area_color=3b1d6b&_cb=20260621" alt="activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=al-khali&bg_color=07030f&color=c084fc&line=9333ea&point=6366f1&area=true&hide_border=false&border_color=3b1d6b&area_color=3b1d6b&_cb=20260703" alt="activity graph" />
 
 </div>
 
