@@ -5,6 +5,13 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+# Cards are generated IN-CI by running the self-hosted github-readme-stats fork
+# (Al-khali/github-readme-stats-self) directly — no Railway dependency. The old
+# Railway backend died; a dead backend used to silently keep a value-less card.
+# Requires repo secret PAT_1 (a GitHub token with `repo` scope) to (a) clone the
+# private fork and (b) count private contributions. If PAT_1 is missing the job
+# is a safe no-op and keeps the currently committed cards.
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
@@ -13,64 +20,79 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch cards (robust)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate cards (in-CI, no Railway)
         env:
-          STATS_API_URL: ${{ secrets.STATS_API_URL }}
+          PAT_1: ${{ secrets.PAT_1 }}
         run: |
           set -uo pipefail
 
-          # Fetch an SVG card and only overwrite the committed file if it is a
-          # valid, non-error card. Three failure modes are guarded:
-          #   1. Leading whitespace — github-readme-stats serves the SVG with a
-          #      leading newline + indentation. That is fine over HTTP (the
-          #      image/svg+xml content-type forces rendering) but a committed
-          #      file that does not start with "<svg"/"<?xml" is treated as a
-          #      broken image by GitHub. We strip the leading whitespace.
-          #   2. A dead/missing backend — e.g. Railway returning a JSON
-          #      "Application not found" body. curl -s would exit 0 and clobber
-          #      a good SVG with that JSON. We use curl -f + retries and require
-          #      the body to actually be an SVG.
-          #   3. An error card from a degraded instance ("Something went wrong",
-          #      rate limit, bad credentials).
+          if [ -z "${PAT_1:-}" ]; then
+            echo "::warning::PAT_1 not set — skipping regeneration, keeping existing cards"
+            exit 0
+          fi
+
+          # Run the engine locally.
+          git clone --depth 1 \
+            "https://x-access-token:${PAT_1}@github.com/Al-khali/github-readme-stats-self.git" grs
+          ( cd grs && npm ci --no-audit --no-fund )
+          ( cd grs && PORT=9779 node express.js ) & SRV=$!
+
+          # Wait for the server to accept requests.
+          up=0
+          for _ in $(seq 1 30); do
+            if curl -fsS "http://localhost:9779/api?username=al-khali" -o /dev/null; then up=1; break; fi
+            sleep 1
+          done
+          if [ "$up" != 1 ]; then
+            echo "::warning::local engine did not come up — keeping existing cards"
+            kill "$SRV" 2>/dev/null || true
+            exit 0
+          fi
+
+          # Fetch a card and only overwrite the committed file if it is a valid,
+          # NON-empty card. Guards: fetch failure, leading whitespace (GitHub
+          # treats a file not starting with <svg as a broken image), error cards,
+          # a required title string, AND a required value node (a value-less card
+          # — the exact failure mode that showed "zero" — is rejected).
           fetch_svg() {
-            local url="$1" out="$2" must_match="$3"
+            local url="$1" out="$2" title="$3" value_node="$4"
             local tmp; tmp="$(mktemp)"
-
-            if ! curl -fsS --retry 3 --retry-delay 5 --max-time 30 "$url" -o "$tmp"; then
-              echo "::warning::fetch failed for $out — keeping existing file"
-              rm -f "$tmp"; return 0
+            if ! curl -fsS --retry 3 --retry-delay 3 --max-time 30 "$url" -o "$tmp"; then
+              echo "::warning::fetch failed for $out — keeping existing file"; rm -f "$tmp"; return 0
             fi
-
-            # Drop leading whitespace so the file starts with the SVG root tag.
             perl -0777 -i -pe 's/\A\s+//' "$tmp"
-
-            if ! head -c 5 "$tmp" | grep -q '<svg' \
-               || ! grep -q '</svg>' "$tmp" \
+            if ! head -c 5 "$tmp" | grep -q '<svg' || ! grep -q '</svg>' "$tmp" \
                || grep -qiE 'something went wrong|max(imum)? retries|bad credentials|invalid username|application not found' "$tmp"; then
-              echo "::warning::not a valid SVG card for $out — keeping existing file"
-              rm -f "$tmp"; return 0
+              echo "::warning::not a valid SVG for $out — keeping existing file"; rm -f "$tmp"; return 0
             fi
-
-            if [ -n "$must_match" ] && ! grep -qiF "$must_match" "$tmp"; then
-              echo "::warning::expected content '$must_match' missing for $out — keeping existing file"
-              rm -f "$tmp"; return 0
+            if [ -n "$title" ] && ! grep -qiF "$title" "$tmp"; then
+              echo "::warning::title '$title' missing for $out — keeping existing file"; rm -f "$tmp"; return 0
             fi
-
-            mv "$tmp" "$out"
-            echo "updated $out"
+            if [ -n "$value_node" ] && ! grep -qF "$value_node" "$tmp"; then
+              echo "::warning::value node '$value_node' missing for $out — keeping existing file"; rm -f "$tmp"; return 0
+            fi
+            mv "$tmp" "$out"; echo "updated $out"
           }
 
+          base="http://localhost:9779"
+          fetch_svg \
+            "${base}/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&count_private=true&rank_icon=percentile" \
+            assets/stats.svg "GitHub Stats" 'data-testid="commits"'
+
+          fetch_svg \
+            "${base}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook&count_private=true" \
+            assets/top-langs.svg "Most Used" 'data-testid="lang-name"'
+
+          # Trophies come from a public third-party service (best-effort).
           fetch_svg \
             "https://github-profile-trophy.vercel.app/?username=al-khali&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" \
-            assets/trophies.svg ""
+            assets/trophies.svg "" ""
 
-          fetch_svg \
-            "${STATS_API_URL}/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&count_private=true&rank_icon=percentile" \
-            assets/stats.svg "GitHub Stats"
-
-          fetch_svg \
-            "${STATS_API_URL}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook&count_private=true" \
-            assets/top-langs.svg "Most Used"
+          kill "$SRV" 2>/dev/null || true
 
       - name: Commit updated SVGs
         run: |
