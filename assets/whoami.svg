@@ -1,13 +1,13 @@
-<svg width="760" height="278" viewBox="0 0 760 278" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="300" viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="glow-w" cx="92%" cy="8%" r="45%">
       <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="760" height="278" rx="8" fill="#07030f"/>
-  <rect width="760" height="278" rx="8" fill="url(#glow-w)"/>
-  <rect width="760" height="278" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <rect width="760" height="300" rx="8" fill="#07030f"/>
+  <rect width="760" height="300" rx="8" fill="url(#glow-w)"/>
+  <rect width="760" height="300" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
   <style>
     .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
   </style>
@@ -48,36 +48,43 @@
     <tspan x="158" fill="#a855f7">Agentic AI </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">RAG </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Graph RAG </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">MCP </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Evals</tspan>
   </text>
 
-  <!-- partner -->
+  <!-- cloud -->
   <text class="mono" y="166">
+    <tspan x="40" fill="#7c5cb0">cloud</tspan>
+    <tspan x="140" fill="#2e1060">:</tspan>
+    <tspan x="158" fill="#a855f7">Agent Platform </tspan><tspan fill="#6b4fa0">(ex-Vertex AI) </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Model Armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">ADK</tspan>
+  </text>
+
+  <!-- partner -->
+  <text class="mono" y="188">
     <tspan x="40" fill="#7c5cb0">partner</tspan>
     <tspan x="140" fill="#2e1060">:</tspan>
     <tspan x="158" fill="#a855f7">Google Cloud </tspan><tspan fill="#3b1060">×  </tspan><tspan fill="#a855f7">Anthropic</tspan>
   </text>
 
   <!-- lang -->
-  <text class="mono" y="188">
+  <text class="mono" y="210">
     <tspan x="40" fill="#7c5cb0">lang</tspan>
     <tspan x="140" fill="#2e1060">:</tspan>
     <tspan x="158" fill="#c084fc">python </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">go </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">rust </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">zig </tspan><tspan fill="#6b4fa0">(new love)</tspan>
   </text>
 
   <!-- os -->
-  <text class="mono" y="210">
+  <text class="mono" y="232">
     <tspan x="40" fill="#7c5cb0">os</tspan>
     <tspan x="140" fill="#2e1060">:</tspan>
     <tspan x="158" fill="#9d7cc0">Arch Linux </tspan><tspan fill="#3b1060">/ </tspan><tspan fill="#9d7cc0">macOS </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#6b4fa0">unix lover</tspan>
   </text>
 
   <!-- env -->
-  <text class="mono" y="232">
+  <text class="mono" y="254">
     <tspan x="40" fill="#7c5cb0">env</tspan>
     <tspan x="140" fill="#2e1060">:</tspan>
     <tspan x="158" fill="#9d7cc0">neovim </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">zsh </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">tmux </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">kitty</tspan>
   </text>
 
   <!-- curious footer -->
-  <text class="mono" y="258" font-style="italic">
+  <text class="mono" y="280" font-style="italic">
     <tspan x="40" fill="#3b1d6b">// also drawn to: offensive-sec · robotics · low-level systems</tspan>
   </text>
 </svg>

@@ -23,7 +23,7 @@
     <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">agentic/</tspan>
   </text>
   <text class="mono" y="100">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">adk </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">langgraph </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">mcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">a2a </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-evals </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">multi-agent</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">adk </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-runtime </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">memory-bank </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">a2a </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">mcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">agent-evals</tspan>
   </text>
 
   <!-- rag/ -->
@@ -39,7 +39,7 @@
     <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">cloud/</tspan>
   </text>
   <text class="mono" y="208">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">gcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">vertex-ai </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">cloud-run </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">terraform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">docker </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">k8s</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">gcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">model-armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">cloud-run </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">terraform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">k8s</tspan>
   </text>
 
   <!-- languages/ -->

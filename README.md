@@ -42,12 +42,13 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Vertex_AI-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Vertex AI"/>
-<img src="https://img.shields.io/badge/Gemini-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini"/>
+<img src="https://img.shields.io/badge/Agent_Platform-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Gemini Enterprise Agent Platform (ex-Vertex AI)"/>
+<img src="https://img.shields.io/badge/Gemini_3-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini 3"/>
 <img src="https://img.shields.io/badge/Claude-07030f?style=flat-square&logo=claude&logoColor=a855f7" alt="Claude"/>
-<img src="https://img.shields.io/badge/Agent_Dev_Kit-07030f?style=flat-square&logoColor=a855f7" alt="Google ADK"/>
+<img src="https://img.shields.io/badge/ADK-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Development Kit"/>
+<img src="https://img.shields.io/badge/Model_Armor-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Model Armor"/>
+<img src="https://img.shields.io/badge/Agent_Gateway-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Gateway"/>
 <img src="https://img.shields.io/badge/LangGraph-07030f?style=flat-square&logo=langchain&logoColor=a855f7" alt="LangGraph"/>
-<img src="https://img.shields.io/badge/Agent_Evals-07030f?style=flat-square&logoColor=a855f7" alt="Agent Evals"/>
 
 </div>
 

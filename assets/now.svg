@@ -29,7 +29,7 @@
   <text class="mono" y="100">
     <tspan x="40" fill="#7c5cb0">exploring</tspan>
     <tspan x="150" fill="#2e1060">:</tspan>
-    <tspan x="168" fill="#818cf8">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">a2a-protocol </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">streamable-http</tspan>
+    <tspan x="168" fill="#818cf8">agent-platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">model-armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">a2a-v1.2</tspan>
   </text>
 
   <!-- mission -->
