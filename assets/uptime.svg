@@ -1,0 +1,47 @@
+<svg width="760" height="196" viewBox="0 0 760 196" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow-u" cx="92%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="196" rx="8" fill="#07030f"/>
+  <rect width="760" height="196" rx="8" fill="url(#glow-u)"/>
+  <rect width="760" height="196" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <style>
+    .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
+  </style>
+
+  <text class="mono" y="44">
+    <tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">uptime</tspan>
+  </text>
+  <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
+
+  <text class="mono" y="80">
+    <tspan x="40" fill="#7c5cb0">online since</tspan>
+    <tspan x="176" fill="#2e1060">:</tspan>
+    <tspan x="196" fill="#a855f7">2016 </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">~10 yrs on the wired</tspan>
+  </text>
+
+  <text class="mono" y="102">
+    <tspan x="40" fill="#7c5cb0">contributions</tspan>
+    <tspan x="176" fill="#2e1060">:</tspan>
+    <tspan x="196" fill="#c084fc">2.5k </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">~95% off-grid </tspan><tspan fill="#6b4fa0">(private)</tspan>
+  </text>
+
+  <text class="mono" y="124">
+    <tspan x="40" fill="#7c5cb0">footprint</tspan>
+    <tspan x="176" fill="#2e1060">:</tspan>
+    <tspan x="196" fill="#c084fc">140 repos </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">3.7k commits </tspan><tspan fill="#6b4fa0">(all-time)</tspan>
+  </text>
+
+  <text class="mono" y="146">
+    <tspan x="40" fill="#7c5cb0">languages</tspan>
+    <tspan x="176" fill="#2e1060">:</tspan>
+    <tspan x="196" fill="#c084fc">python </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">go </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">rust </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">zig </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">+12</tspan>
+  </text>
+
+  <text class="mono" y="172" font-style="italic">
+    <tspan x="40" fill="#3b1d6b">// most of the work lives where you can't see it — nda</tspan>
+  </text>
+</svg>

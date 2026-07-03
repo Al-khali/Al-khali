@@ -58,6 +58,10 @@
 
 ---
 
+<img src="./assets/uptime.svg" width="100%" alt="uptime — online since 2016"/>
+
+---
+
 <div align="center">
 
 <img src="./assets/stats.svg?v=20260703b" alt="stats" />
@@ -79,7 +83,7 @@
 <div align="center">
 
 <a href="https://streak-stats.demolab.com?user=al-khali">
-  <img src="https://streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=false&background=07030f&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=3b1d6b&_cb=20260703b" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=al-khali&theme=tokyonight&hide_border=false&background=07030f&ring=9333ea&fire=6366f1&currStreakNum=c084fc&sideNums=c084fc&currStreakLabel=9333ea&sideLabels=7c3aed&dates=6b21a8&stroke=3b1d6b&starting_year=2016&_cb=20260703b" alt="GitHub Streak" />
 </a>
 
 </div>
