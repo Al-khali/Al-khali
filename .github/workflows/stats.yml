@@ -83,16 +83,35 @@ jobs:
             "${base}/api?username=al-khali&show_icons=true&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&icon_color=6366f1&include_all_commits=true&count_private=true&rank_icon=percentile" \
             assets/stats.svg "GitHub Stats" 'data-testid="commits"'
 
+          # count_private + a repo-scoped PAT => private repos are included.
+          # size_weight/count_weight balance raw bytes with how many repos use a
+          # language, so polyglot work (go, rust, zig) surfaces instead of being
+          # buried under a few large Python/notebook repos.
           fetch_svg \
-            "${base}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook&count_private=true" \
+            "${base}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=8&hide=html,css,jupyter+notebook,roff,tex&count_private=true&size_weight=1&count_weight=1" \
             assets/top-langs.svg "Most Used" 'data-testid="lang-name"'
 
           kill "$SRV" 2>/dev/null || true
+
+      # Trophies: the old vercel service (github-profile-trophy.vercel.app) is
+      # dead (HTTP 402 DEPLOYMENT_DISABLED). Generate them in-CI instead with a
+      # Go reimplementation. Pinned to a commit SHA because it receives PAT_1.
+      # PAT_1 (repo scope) lets the "Commits" trophy count PRIVATE work.
+      - name: Generate trophies (in-CI)
+        continue-on-error: true
+        uses: soulteary/github-profile-trophy-action@cabefc1ce203b1ce4c03dae3335aa794aefbbb80  # v1.0.0
+        with:
+          options: 'username=al-khali&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4'
+          path: assets/trophies.svg
+          token: ${{ secrets.PAT_1 }}
 
       - name: Commit updated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/stats.svg assets/top-langs.svg
-          git diff --staged --quiet || git commit -m "chore: update stats SVGs [skip ci]"
+          if [ -f assets/trophies.svg ] && head -c 200 assets/trophies.svg | grep -q '<svg'; then
+            git add assets/trophies.svg
+          fi
+          git diff --staged --quiet || git commit -m "chore: update stats + trophy SVGs [skip ci]"
           git push

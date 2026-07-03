@@ -13,7 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PAT_1 (repo scope) so the 3D graph counts PRIVATE contributions.
+          # Falls back to the ephemeral token if PAT_1 is ever removed.
+          GITHUB_TOKEN: ${{ secrets.PAT_1 || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
