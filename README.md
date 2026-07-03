@@ -16,11 +16,17 @@
 
 <img src="./assets/whoami.svg" width="100%" alt="whoami --verbose"/>
 
+<br/>
+
+<img src="./assets/claude-partner.svg" width="100%" alt="Anthropic Partner — i use claude code"/>
+
 <div align="center">
 
 <a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google_Cloud-Partner-9333ea?style=flat-square&logo=googlecloud&logoColor=c084fc&labelColor=07030f" alt="Google Cloud Partner"/></a>
 &nbsp;
-<a href="https://www.anthropic.com/"><img src="https://img.shields.io/badge/Anthropic-Partner-9333ea?style=flat-square&logo=anthropic&logoColor=c084fc&labelColor=07030f" alt="Anthropic Partner"/></a>
+<a href="https://www.anthropic.com/"><img src="https://img.shields.io/badge/Anthropic-Partner-D97757?style=flat-square&logo=anthropic&logoColor=FAF9F5&labelColor=07030f" alt="Anthropic Partner"/></a>
+&nbsp;
+<a href="https://claude.ai/code"><img src="https://img.shields.io/badge/Claude_Code-compatible-D97757?style=flat-square&logo=claude&logoColor=FAF9F5&labelColor=07030f" alt="Claude Code compatible"/></a>
 &nbsp;
 <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/MCP-builder-6366f1?style=flat-square&logo=modelcontextprotocol&logoColor=c084fc&labelColor=07030f" alt="MCP builder"/></a>
 
@@ -38,7 +44,7 @@
 
 <img src="https://img.shields.io/badge/Vertex_AI-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Vertex AI"/>
 <img src="https://img.shields.io/badge/Gemini-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini"/>
-<img src="https://img.shields.io/badge/Claude-07030f?style=flat-square&logo=anthropic&logoColor=a855f7" alt="Claude"/>
+<img src="https://img.shields.io/badge/Claude-07030f?style=flat-square&logo=claude&logoColor=a855f7" alt="Claude"/>
 <img src="https://img.shields.io/badge/Agent_Dev_Kit-07030f?style=flat-square&logoColor=a855f7" alt="Google ADK"/>
 <img src="https://img.shields.io/badge/LangGraph-07030f?style=flat-square&logo=langchain&logoColor=a855f7" alt="LangGraph"/>
 <img src="https://img.shields.io/badge/Agent_Evals-07030f?style=flat-square&logoColor=a855f7" alt="Agent Evals"/>
@@ -100,6 +106,10 @@
 ---
 
 <div align="center">
+
+<img src="./assets/claude-mascot.svg" width="76" alt="claude companion"/>
+
+<br/>
 
 <sub><i>the network is vast and infinite.</i></sub>
 
