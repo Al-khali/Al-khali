@@ -101,7 +101,8 @@ jobs:
         continue-on-error: true
         uses: soulteary/github-profile-trophy-action@cabefc1ce203b1ce4c03dae3335aa794aefbbb80  # v1.0.0
         with:
-          options: 'username=al-khali&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4'
+          # rank filter => only S-tier trophies are shown (curated flex).
+          options: 'username=al-khali&theme=tokyonight&rank=SSS,SS,S&no-frame=true&no-bg=true&column=6&margin-w=4&margin-h=4'
           path: assets/trophies.svg
           token: ${{ secrets.PAT_1 }}
 

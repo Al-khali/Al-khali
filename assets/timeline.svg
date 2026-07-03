@@ -1,0 +1,25 @@
+<svg width="760" height="280" viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg">
+  <defs><radialGradient id="glow-t" cx="90%" cy="8%" r="45%">
+    <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/><stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+  </radialGradient></defs>
+  <rect width="760" height="280" rx="8" fill="#07030f"/>
+  <rect width="760" height="280" rx="8" fill="url(#glow-t)"/>
+  <rect width="760" height="280" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <style>.mono { font-family:'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size:14px; }</style>
+  <text class="mono" y="44"><tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">git log</tspan><tspan fill="#6d6bcd"> --oneline --since=2016</tspan></text>
+  <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
+  <line x1="46" y1="76" x2="46" y2="218" stroke="#2a0d60" stroke-width="1.5"/>
+<circle cx="46" cy="80" r="4.5" fill="#a855f7"/>
+<text class="mono" y="84"><tspan x="70" fill="#a855f7">2026</tspan><tspan x="130" fill="#2e1060">●</tspan><tspan x="150" fill="#c084fc">ai engineer @ valtech · gcp × anthropic partner</tspan></text>
+<circle cx="46" cy="106" r="4.5" fill="#a855f7"/>
+<text class="mono" y="110"><tspan x="70" fill="#a855f7">2025</tspan><tspan x="130" fill="#2e1060">●</tspan><tspan x="150" fill="#c084fc">agentic · mcp · graph-rag · evals</tspan></text>
+<circle cx="46" cy="132" r="4.5" fill="#8b6fc7"/>
+<text class="mono" y="136"><tspan x="70" fill="#8b6fc7">2023</tspan><tspan x="130" fill="#2e1060">●</tspan><tspan x="150" fill="#9d7cc0">genai · rag · llmops</tspan></text>
+<circle cx="46" cy="158" r="4.5" fill="#7c5cb0"/>
+<text class="mono" y="162"><tspan x="70" fill="#7c5cb0">2021</tspan><tspan x="130" fill="#2e1060">●</tspan><tspan x="150" fill="#9d7cc0">data engineering · gcp · spark</tspan></text>
+<circle cx="46" cy="184" r="4.5" fill="#6b4fa0"/>
+<text class="mono" y="188"><tspan x="70" fill="#6b4fa0">2019</tspan><tspan x="130" fill="#2e1060">●</tspan><tspan x="150" fill="#7c5cb0">machine learning · nlp</tspan></text>
+<circle cx="46" cy="210" r="4.5" fill="#5b4190"/>
+<text class="mono" y="214"><tspan x="70" fill="#5b4190">2016</tspan><tspan x="130" fill="#2e1060">●</tspan><tspan x="150" fill="#7c5cb0">first commits · the journey begins</tspan></text>
+  <text class="mono" y="264" font-style="italic"><tspan x="24" fill="#3b1d6b">// HEAD — a decade in the wired · senior, most of it off the record</tspan></text>
+</svg>

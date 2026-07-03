@@ -1,39 +1,47 @@
 <svg width="284" height="200" viewBox="0 0 284 200" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
   <style>
-    @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
-    @keyframes blink { 0%,90%,100%{opacity:0} 93%,97%{opacity:1} }
-    @keyframes antglow { 0%,100%{opacity:0.5} 50%{opacity:1} }
-    .mascot { animation: bob 3.2s ease-in-out infinite; }
-    .lid { animation: blink 5.5s ease-in-out infinite; opacity:0; }
-    .ant { animation: antglow 2.2s ease-in-out infinite; }
+    @keyframes walk { 0%{transform:translate(-3px,0)} 25%{transform:translate(0,-3px)} 50%{transform:translate(3px,0)} 75%{transform:translate(0,-3px)} 100%{transform:translate(-3px,0)} }
+    @keyframes stepA { 0%,100%{transform:translateY(0)} 50%{transform:translateY(2.5px)} }
+    @keyframes stepB { 0%,100%{transform:translateY(2.5px)} 50%{transform:translateY(0)} }
+    @keyframes waveA { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-2.5px)} }
+    @keyframes waveB { 0%,100%{transform:translateY(-2.5px)} 50%{transform:translateY(0)} }
+    @keyframes blinkBoth { 0%,89%{opacity:0} 92%,96%{opacity:1} 99%,100%{opacity:0} }
+    @keyframes blinkWink { 0%,42%{opacity:0} 45%,49%{opacity:1} 52%,89%{opacity:0} 92%,96%{opacity:1} 99%,100%{opacity:0} }
+    .mascot { animation: walk 1.5s ease-in-out infinite; }
+    .leg-a { animation: stepA 0.75s ease-in-out infinite; }
+    .leg-b { animation: stepB 0.75s ease-in-out infinite; }
+    .claw-a { animation: waveA 1.9s ease-in-out infinite; }
+    .claw-b { animation: waveB 1.9s ease-in-out infinite; }
+    .lid-l { animation: blinkBoth 6s ease-in-out infinite; opacity:0; }
+    .lid-r { animation: blinkWink 6s ease-in-out infinite; opacity:0; }
   </style>
   <g class="mascot">
-    <rect x="34" y="10" width="12" height="12" fill="#5c2e1a"/>
-<rect x="46" y="10" width="12" height="12" fill="#5c2e1a"/>
-<rect x="226" y="10" width="12" height="12" fill="#5c2e1a"/>
-<rect x="238" y="10" width="12" height="12" fill="#5c2e1a"/>
-<rect x="22" y="22" width="12" height="12" fill="#5c2e1a"/>
-<rect x="34" y="22" width="12" height="12" fill="#d97757"/>
-<rect x="46" y="22" width="12" height="12" fill="#d97757"/>
-<rect x="58" y="22" width="12" height="12" fill="#5c2e1a"/>
-<rect x="214" y="22" width="12" height="12" fill="#5c2e1a"/>
-<rect x="226" y="22" width="12" height="12" fill="#d97757"/>
-<rect x="238" y="22" width="12" height="12" fill="#d97757"/>
-<rect x="250" y="22" width="12" height="12" fill="#5c2e1a"/>
-<rect x="22" y="34" width="12" height="12" fill="#5c2e1a"/>
-<rect x="34" y="34" width="12" height="12" fill="#d97757"/>
-<rect x="46" y="34" width="12" height="12" fill="#5c2e1a"/>
-<rect x="226" y="34" width="12" height="12" fill="#5c2e1a"/>
-<rect x="238" y="34" width="12" height="12" fill="#d97757"/>
-<rect x="250" y="34" width="12" height="12" fill="#5c2e1a"/>
-<rect x="34" y="46" width="12" height="12" fill="#d97757"/>
-<rect x="46" y="46" width="12" height="12" fill="#5c2e1a"/>
-<rect x="226" y="46" width="12" height="12" fill="#5c2e1a"/>
-<rect x="238" y="46" width="12" height="12" fill="#d97757"/>
-<rect x="46" y="58" width="12" height="12" fill="#d97757"/>
-<rect x="58" y="58" width="12" height="12" fill="#d97757"/>
-<rect x="214" y="58" width="12" height="12" fill="#d97757"/>
-<rect x="226" y="58" width="12" height="12" fill="#d97757"/>
+    <rect class="claw-a" x="34" y="10" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-a" x="46" y="10" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="226" y="10" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="238" y="10" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-a" x="22" y="22" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-a" x="34" y="22" width="12" height="12" fill="#d97757"/>
+<rect class="claw-a" x="46" y="22" width="12" height="12" fill="#d97757"/>
+<rect class="claw-a" x="58" y="22" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="214" y="22" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="226" y="22" width="12" height="12" fill="#d97757"/>
+<rect class="claw-b" x="238" y="22" width="12" height="12" fill="#d97757"/>
+<rect class="claw-b" x="250" y="22" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-a" x="22" y="34" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-a" x="34" y="34" width="12" height="12" fill="#d97757"/>
+<rect class="claw-a" x="46" y="34" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="226" y="34" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="238" y="34" width="12" height="12" fill="#d97757"/>
+<rect class="claw-b" x="250" y="34" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-a" x="34" y="46" width="12" height="12" fill="#d97757"/>
+<rect class="claw-a" x="46" y="46" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="226" y="46" width="12" height="12" fill="#5c2e1a"/>
+<rect class="claw-b" x="238" y="46" width="12" height="12" fill="#d97757"/>
+<rect class="claw-a" x="46" y="58" width="12" height="12" fill="#d97757"/>
+<rect class="claw-a" x="58" y="58" width="12" height="12" fill="#d97757"/>
+<rect class="claw-b" x="214" y="58" width="12" height="12" fill="#d97757"/>
+<rect class="claw-b" x="226" y="58" width="12" height="12" fill="#d97757"/>
 <rect x="46" y="70" width="12" height="12" fill="#5c2e1a"/>
 <rect x="58" y="70" width="12" height="12" fill="#5c2e1a"/>
 <rect x="70" y="70" width="12" height="12" fill="#5c2e1a"/>
@@ -178,13 +186,13 @@
 <rect x="202" y="166" width="12" height="12" fill="#d97757"/>
 <rect x="214" y="166" width="12" height="12" fill="#5c2e1a"/>
 <rect x="226" y="166" width="12" height="12" fill="#5c2e1a"/>
-<rect x="34" y="178" width="12" height="12" fill="#5c2e1a"/>
-<rect x="58" y="178" width="12" height="12" fill="#5c2e1a"/>
-<rect x="94" y="178" width="12" height="12" fill="#5c2e1a"/>
-<rect x="178" y="178" width="12" height="12" fill="#5c2e1a"/>
-<rect x="214" y="178" width="12" height="12" fill="#5c2e1a"/>
-<rect x="238" y="178" width="12" height="12" fill="#5c2e1a"/>
-    <rect class="lid" x="82" y="94" width="24" height="24" fill="#d97757"/>
-<rect class="lid" x="178" y="94" width="24" height="24" fill="#d97757"/>
+<rect class="leg-a" x="34" y="178" width="12" height="12" fill="#5c2e1a"/>
+<rect class="leg-a" x="58" y="178" width="12" height="12" fill="#5c2e1a"/>
+<rect class="leg-a" x="94" y="178" width="12" height="12" fill="#5c2e1a"/>
+<rect class="leg-b" x="178" y="178" width="12" height="12" fill="#5c2e1a"/>
+<rect class="leg-b" x="214" y="178" width="12" height="12" fill="#5c2e1a"/>
+<rect class="leg-b" x="238" y="178" width="12" height="12" fill="#5c2e1a"/>
+    <rect class="lid-l" x="82" y="94" width="24" height="24" fill="#d97757"/>
+<rect class="lid-r" x="178" y="94" width="24" height="24" fill="#d97757"/>
   </g>
 </svg>

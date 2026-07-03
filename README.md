@@ -62,6 +62,10 @@
 
 ---
 
+<img src="./assets/timeline.svg" width="100%" alt="career timeline — a decade in the wired"/>
+
+---
+
 <div align="center">
 
 <img src="./assets/stats.svg?v=20260703b" alt="stats" />
@@ -115,6 +119,10 @@
 </div>
 
 <img src="./assets/claude-code.svg" width="100%" alt="claude code session"/>
+
+---
+
+<img src="./assets/neofetch.svg" width="100%" alt="neofetch — al-khali@wired"/>
 
 ---
 
