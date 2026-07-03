@@ -87,17 +87,12 @@ jobs:
             "${base}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=6&hide=html,css,jupyter+notebook&count_private=true" \
             assets/top-langs.svg "Most Used" 'data-testid="lang-name"'
 
-          # Trophies come from a public third-party service (best-effort).
-          fetch_svg \
-            "https://github-profile-trophy.vercel.app/?username=al-khali&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=4" \
-            assets/trophies.svg "" ""
-
           kill "$SRV" 2>/dev/null || true
 
       - name: Commit updated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/top-langs.svg assets/trophies.svg
+          git add assets/stats.svg assets/top-langs.svg
           git diff --staged --quiet || git commit -m "chore: update stats SVGs [skip ci]"
           git push

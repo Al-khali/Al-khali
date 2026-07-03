@@ -1,13 +1,13 @@
-<svg width="760" height="152" viewBox="0 0 760 152" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="174" viewBox="0 0 760 174" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="glow-n" cx="92%" cy="10%" r="50%">
       <stop offset="0%" stop-color="#6366f1" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="760" height="152" rx="8" fill="#07030f"/>
-  <rect width="760" height="152" rx="8" fill="url(#glow-n)"/>
-  <rect width="760" height="152" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <rect width="760" height="174" rx="8" fill="#07030f"/>
+  <rect width="760" height="174" rx="8" fill="url(#glow-n)"/>
+  <rect width="760" height="174" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
   <style>
     .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
   </style>
@@ -18,24 +18,36 @@
   </text>
   <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
 
-  <!-- exploring -->
+  <!-- building -->
   <text class="mono" y="78">
-    <tspan x="40" fill="#7c5cb0">exploring</tspan>
-    <tspan x="140" fill="#2e1060">:</tspan>
-    <tspan x="158" fill="#818cf8">mcp-web </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">streamable-http</tspan>
+    <tspan x="40" fill="#7c5cb0">building</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168" fill="#a78bfa">agentic-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">mcp-servers </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">agent-evals</tspan>
   </text>
 
-  <!-- obsessing -->
+  <!-- exploring -->
   <text class="mono" y="100">
-    <tspan x="40" fill="#7c5cb0">obsessing</tspan>
-    <tspan x="140" fill="#2e1060">:</tspan>
-    <tspan x="158" fill="#a78bfa">multi-agent-systems </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">agent-evals </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">a2a-protocol</tspan>
+    <tspan x="40" fill="#7c5cb0">exploring</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168" fill="#818cf8">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">a2a-protocol </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">streamable-http</tspan>
   </text>
 
-  <!-- reading -->
+  <!-- mission -->
   <text class="mono" y="122">
-    <tspan x="40" fill="#7c5cb0">reading</tspan>
-    <tspan x="140" fill="#2e1060">:</tspan>
-    <tspan x="158" fill="#9d7cc0">ebpf </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">rust-async </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">llm-internals</tspan>
+    <tspan x="40" fill="#7c5cb0">mission</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168" fill="#9d7cc0">GenAI systems for a French luxury maison</tspan>
+  </text>
+
+  <!-- tinkering -->
+  <text class="mono" y="144">
+    <tspan x="40" fill="#7c5cb0">tinkering</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168" fill="#9d7cc0">zig </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">offensive-sec </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">robotics </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">ebpf</tspan>
+  </text>
+
+  <!-- pulse -->
+  <text class="mono" y="166" font-style="italic">
+    <tspan x="40" fill="#2a1555">// present day, present time — the wired is always on</tspan>
   </text>
 </svg>

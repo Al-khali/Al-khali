@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07030f,50:3b1d6b,100:9333ea&height=160&section=header&text=Al-khali&fontSize=60&fontColor=c084fc&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%7C%20GCP%20%7C%20RAG%20%7C%20LLMOps&descAlignY=65&descColor=9333ea&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:07030f,50:3b1d6b,100:9333ea&height=160&section=header&text=Al-khali&fontSize=60&fontColor=c084fc&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%7C%20Agentic%20AI%20%7C%20RAG%20%7C%20GCP%20%2B%20Anthropic&descAlignY=65&descColor=9333ea&descSize=16" width="100%" />
 
 <div align="center">
 
@@ -16,13 +16,32 @@
 
 <img src="./assets/whoami.svg" width="100%" alt="whoami --verbose"/>
 
+<div align="center">
+
+<a href="https://cloud.google.com/"><img src="https://img.shields.io/badge/Google_Cloud-Partner-9333ea?style=flat-square&logo=googlecloud&logoColor=c084fc&labelColor=07030f" alt="Google Cloud Partner"/></a>
+&nbsp;
+<a href="https://www.anthropic.com/"><img src="https://img.shields.io/badge/Anthropic-Partner-9333ea?style=flat-square&logo=anthropic&logoColor=c084fc&labelColor=07030f" alt="Anthropic Partner"/></a>
+&nbsp;
+<a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/MCP-builder-6366f1?style=flat-square&logo=modelcontextprotocol&logoColor=c084fc&labelColor=07030f" alt="MCP builder"/></a>
+
+</div>
+
 ---
 
 <img src="./assets/stack.svg" width="100%" alt="ls ~/stack"/>
 
 <div align="center">
 
-[![skillicons](https://skillicons.dev/icons?i=python,rust,go,ts,gcp,terraform,docker,kubernetes,neovim,linux&theme=dark)](https://skillicons.dev)
+[![skillicons](https://skillicons.dev/icons?i=python,go,rust,zig,ts,gcp,terraform,docker,kubernetes,linux,apple,neovim&theme=dark)](https://skillicons.dev)
+
+<br/>
+
+<img src="https://img.shields.io/badge/Vertex_AI-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Vertex AI"/>
+<img src="https://img.shields.io/badge/Gemini-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini"/>
+<img src="https://img.shields.io/badge/Claude-07030f?style=flat-square&logo=anthropic&logoColor=a855f7" alt="Claude"/>
+<img src="https://img.shields.io/badge/Agent_Dev_Kit-07030f?style=flat-square&logoColor=a855f7" alt="Google ADK"/>
+<img src="https://img.shields.io/badge/LangGraph-07030f?style=flat-square&logo=langchain&logoColor=a855f7" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/Agent_Evals-07030f?style=flat-square&logoColor=a855f7" alt="Agent Evals"/>
 
 </div>
 
@@ -83,6 +102,10 @@
 <div align="center">
 
 <sub><i>the network is vast and infinite.</i></sub>
+
+<br/>
+
+<sub><code>root@wired</code> · reverse-engineering by night · teaching machines to move</sub>
 
 <br/><br/>
 

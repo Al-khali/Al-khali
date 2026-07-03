@@ -6,7 +6,6 @@ Les éléments suivants fonctionnent immédiatement **sans configuration** :
 - ✅ GitHub Stats (via github-readme-stats.vercel.app)
 - ✅ Streak Stats (via streak-stats.demolab.com) 
 - ✅ Contribution Snake Animation (workflow automatique)
-- ✅ GitHub Trophies
 - ✅ Contribution Heatmap
 - ✅ Profile views counter
 
