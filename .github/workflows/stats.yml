@@ -84,11 +84,14 @@ jobs:
             assets/stats.svg "GitHub Stats" 'data-testid="commits"'
 
           # count_private + a repo-scoped PAT => private repos are included.
-          # size_weight/count_weight balance raw bytes with how many repos use a
-          # language, so polyglot work (go, rust, zig) surfaces instead of being
-          # buried under a few large Python/notebook repos.
+          # The fork is patched to PAGINATE owner repos (this account has >100),
+          # so languages that only live in the newer repos are counted too.
+          # size_weight=1/count_weight=0 ranks by real bytes (count_weight buried
+          # single-repo languages like Haskell/Elixir/OCaml). langs_count=16 +
+          # compact shows the full polyglot breadth; the hide list drops build/
+          # markup noise (notebooks, html/css, terraform, make, docs formats).
           fetch_svg \
-            "${base}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=8&hide=html,css,jupyter+notebook,roff,tex&count_private=true&size_weight=1&count_weight=1" \
+            "${base}/api/top-langs/?username=al-khali&layout=compact&hide_border=false&bg_color=07030f&title_color=a855f7&text_color=c084fc&border_color=3b1d6b&langs_count=16&hide=html,css,jupyter+notebook,roff,tex,scss,hcl,cypher,makefile,dockerfile,cmake,dune&count_private=true&size_weight=1&count_weight=0" \
             assets/top-langs.svg "Most Used" 'data-testid="lang-name"'
 
           kill "$SRV" 2>/dev/null || true
