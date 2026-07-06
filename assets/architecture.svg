@@ -1,0 +1,45 @@
+<svg width="760" height="192" viewBox="0 0 760 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow-a" cx="92%" cy="8%" r="45%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="192" rx="8" fill="#07030f"/>
+  <rect width="760" height="192" rx="8" fill="url(#glow-a)"/>
+  <rect width="760" height="192" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <style>.mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }</style>
+
+  <text class="mono" y="44">
+    <tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">cat</tspan><tspan fill="#6d6bcd"> ~/architecture</tspan>
+  </text>
+  <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
+
+  <text class="mono" y="80">
+    <tspan x="40" fill="#7c5cb0">principles</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168"><tspan fill="#a855f7">evolutionary </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">event-driven </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">least-privilege </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">observability</tspan></tspan>
+  </text>
+
+  <text class="mono" y="102">
+    <tspan x="40" fill="#7c5cb0">patterns</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168"><tspan fill="#a855f7">multi-agent orchestration </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">CQRS </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">idempotency</tspan></tspan>
+  </text>
+
+  <text class="mono" y="124">
+    <tspan x="40" fill="#7c5cb0">scale</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168"><tspan fill="#c084fc">cloud-run </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">k8s </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">async </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">cost-aware</tspan></tspan>
+  </text>
+
+  <text class="mono" y="146">
+    <tspan x="40" fill="#7c5cb0">docs</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168"><tspan fill="#c084fc">ADRs </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">C4 diagrams </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">trade-off logs</tspan></tspan>
+  </text>
+
+  <text class="mono" y="172" font-style="italic">
+    <tspan x="40" fill="#3b1d6b">// senior engineer moving toward architecture — systems that outlive their code</tspan>
+  </text>
+</svg>

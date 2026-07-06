@@ -1,12 +1,11 @@
 name: Generate Snake
 
+# Disabled: the contribution snake is no longer shown in the README
+# (single contribution viz = the 3D graph). Rename back to snake.yml to
+# re-enable.
+
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   generate:

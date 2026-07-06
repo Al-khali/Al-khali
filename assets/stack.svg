@@ -1,73 +1,70 @@
-<svg width="760" height="404" viewBox="0 0 760 404" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="470" viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="glow-s" cx="92%" cy="5%" r="40%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.07"/>
+    <radialGradient id="glow-s" cx="92%" cy="5%" r="45%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="760" height="404" rx="8" fill="#07030f"/>
-  <rect width="760" height="404" rx="8" fill="url(#glow-s)"/>
-  <rect width="760" height="404" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
-  <style>
-    .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
-  </style>
+  <rect width="760" height="470" rx="8" fill="#07030f"/>
+  <rect width="760" height="470" rx="8" fill="url(#glow-s)"/>
+  <rect width="760" height="470" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <style>.mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }</style>
 
-  <!-- Prompt -->
   <text class="mono" y="44">
     <tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">ls -la</tspan><tspan fill="#6d6bcd"> ~/stack</tspan>
   </text>
   <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
 
-  <!-- agentic/ -->
   <text class="mono" y="78">
     <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">agentic/</tspan>
   </text>
   <text class="mono" y="100">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">adk </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-runtime </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">memory-bank </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">a2a </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">mcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">agent-evals</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">adk </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-runtime </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">memory-bank </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">a2a </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">mcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">agent-evals </tspan>
   </text>
 
-  <!-- rag/ -->
   <text class="mono" y="132">
-    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">rag/</tspan>
+    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">design/</tspan>
   </text>
   <text class="mono" y="154">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agentic-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">hybrid-search </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">reranking </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">embeddings</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#a855f7">system-design </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">adr </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">c4 </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">trade-offs </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">observability </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">scalability </tspan>
   </text>
 
-  <!-- cloud/ -->
   <text class="mono" y="186">
-    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">cloud/</tspan>
+    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">rag/</tspan>
   </text>
   <text class="mono" y="208">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">gcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">model-armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">cloud-run </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">terraform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">k8s</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agentic-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">hybrid-search </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">reranking </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">embeddings </tspan>
   </text>
 
-  <!-- languages/ -->
   <text class="mono" y="240">
-    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">languages/</tspan>
+    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">cloud/</tspan>
   </text>
   <text class="mono" y="262">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">python </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">go </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">rust </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">zig </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">sql</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">gcp </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">agent-platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">model-armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">cloud-run </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">terraform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">k8s </tspan>
   </text>
 
-  <!-- systems/ -->
   <text class="mono" y="294">
-    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">systems/</tspan>
+    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">languages/</tspan>
   </text>
   <text class="mono" y="316">
-    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">arch </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">macos </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">neovim </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">tmux </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">zsh </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">ebpf</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">python </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">go </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">rust </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">zig </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">sql </tspan>
   </text>
 
-  <!-- curious/ -->
   <text class="mono" y="348">
-    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">curious/</tspan>
+    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">systems/</tspan>
   </text>
   <text class="mono" y="370">
-    <tspan x="40" fill="#4a2d7a">└─  </tspan><tspan fill="#818cf8">offensive-sec </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">robotics </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">embedded </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">ctf </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">reversing</tspan>
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">arch </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">macos </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">neovim </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">tmux </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">zsh </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">ebpf </tspan>
   </text>
 
-  <!-- hint -->
-  <text class="mono" y="394" font-style="italic">
-    <tspan x="40" fill="#2a1555">// 3 root shells open: an agent, a compiler, a debugger</tspan>
+  <text class="mono" y="402">
+    <tspan x="24" fill="#2a1060">drwxr-x  </tspan><tspan fill="#a855f7">curious/</tspan>
+  </text>
+  <text class="mono" y="424">
+    <tspan x="40" fill="#4a2d7a">└─  </tspan><tspan fill="#818cf8">offensive-sec </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">robotics </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">embedded </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">ctf </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">reversing </tspan>
+  </text>
+
+  <text class="mono" y="450" font-style="italic">
+    <tspan x="40" fill="#3b1d6b">// 4 root shells open: an agent, a compiler, a debugger, a whiteboard</tspan>
   </text>
 </svg>
