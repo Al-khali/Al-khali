@@ -6,7 +6,7 @@
   <rect width="760" height="280" rx="8" fill="url(#glow-t)"/>
   <rect width="760" height="280" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
   <style>.mono { font-family:'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size:14px; }</style>
-  <text class="mono" y="44"><tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">git log</tspan><tspan fill="#6d6bcd"> --oneline --since=2016</tspan></text>
+  <text class="mono" y="44"><tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">git log</tspan><tspan fill="#6d6bcd"> ~/career --oneline --since=2016</tspan></text>
   <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
   <line x1="46" y1="76" x2="46" y2="218" stroke="#2a0d60" stroke-width="1.5"/>
 <circle cx="46" cy="80" r="4.5" fill="#a855f7"/>

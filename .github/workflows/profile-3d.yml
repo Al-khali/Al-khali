@@ -17,6 +17,9 @@ jobs:
           # Falls back to the ephemeral token if PAT_1 is ever removed.
           GITHUB_TOKEN: ${{ secrets.PAT_1 || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          # Custom Plasma Void palette instead of the built-in presets —
+          # exclusive mode: only the file(s) listed in this JSON get (re)built.
+          SETTING_JSON: assets/3d-contrib-settings.json
       - name: Commit & Push
         run: |
           git config user.name github-actions

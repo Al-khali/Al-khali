@@ -1,0 +1,66 @@
+<svg width="760" height="430" viewBox="0 0 760 430" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow-p" cx="92%" cy="5%" r="45%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="760" height="430" rx="8" fill="#07030f"/>
+  <rect width="760" height="430" rx="8" fill="url(#glow-p)"/>
+  <rect width="760" height="430" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <style>.mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }</style>
+
+  <text class="mono" y="44">
+    <tspan x="24" fill="#4c1d95">~  ❯ </tspan><tspan fill="#a855f7">ls -la</tspan><tspan fill="#6d6bcd"> ~/projects</tspan>
+  </text>
+  <line x1="24" y1="56" x2="736" y2="56" stroke="#1a0840" stroke-width="0.5"/>
+
+  <text class="mono" y="78">
+    <tspan x="24" fill="#2a1060">drwx------  </tspan><tspan fill="#5b4190">[REDACTED]  </tspan><tspan fill="#a855f7">agentic-platform/</tspan>
+  </text>
+  <text class="mono" y="100">
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">adk </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">a2a </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">gemini enterprise agent platform</tspan>
+  </text>
+
+  <text class="mono" y="132">
+    <tspan x="24" fill="#2a1060">drwx------  </tspan><tspan fill="#5b4190">[REDACTED]  </tspan><tspan fill="#a855f7">mcp-apps-poc/</tspan>
+  </text>
+  <text class="mono" y="154">
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">mcp apps </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">interactive tool UIs </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">rendered surfaces</tspan>
+  </text>
+
+  <text class="mono" y="186">
+    <tspan x="24" fill="#2a1060">drwx------  </tspan><tspan fill="#5b4190">[REDACTED]  </tspan><tspan fill="#a855f7">ap2-payments/</tspan>
+  </text>
+  <text class="mono" y="208">
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">agent payments protocol (AP2) </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">agentic commerce</tspan>
+  </text>
+
+  <text class="mono" y="240">
+    <tspan x="24" fill="#2a1060">drwx------  </tspan><tspan fill="#5b4190">[REDACTED]  </tspan><tspan fill="#a855f7">sdlc-agents/</tspan>
+  </text>
+  <text class="mono" y="262">
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">long-running agents </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">harness </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">observability</tspan>
+  </text>
+
+  <text class="mono" y="294">
+    <tspan x="24" fill="#2a1060">drwx------  </tspan><tspan fill="#5b4190">[REDACTED]  </tspan><tspan fill="#a855f7">agentic-rag/</tspan>
+  </text>
+  <text class="mono" y="316">
+    <tspan x="40" fill="#4a2d7a">├─  </tspan><tspan fill="#c084fc">graph-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">vertex ai </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">hybrid search</tspan>
+  </text>
+
+  <text class="mono" y="348">
+    <tspan x="24" fill="#2a1060">drwxr-xr-x  </tspan><tspan fill="#6b4fa0">public      </tspan><tspan fill="#a855f7">dotfiles/</tspan>
+  </text>
+  <text class="mono" y="370">
+    <tspan x="40" fill="#4a2d7a">└─  </tspan><tspan fill="#818cf8">arch </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">hyprland </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">neovim </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">zsh</tspan>
+  </text>
+
+  <text class="mono" y="404" font-style="italic">
+    <tspan x="24" fill="#3b1d6b">// ~90% of my work ships behind NDAs — the stack above is real.</tspan>
+  </text>
+  <text class="mono" y="422" font-style="italic">
+    <tspan x="24" fill="#2a1555">// the code isn't public. present day, present time — building anyway.</tspan>
+  </text>
+</svg>

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=1000&color=9333EA&center=true&vCenter=true&width=560&height=30&lines=designing+systems+that+outlive+their+code;senior+engineer+%C2%B7+architect+in+progress+%C2%B7+explorer" alt="tagline" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=1000&color=9333EA&center=true&vCenter=true&width=620&height=30&lines=designing+systems+that+outlive+their+code;shipping+agents+that+outlive+their+prompts;senior+engineer+%C2%B7+architect+in+progress+%C2%B7+explorer" alt="tagline" />
 
 </div>
 
@@ -28,6 +28,14 @@
 
 ---
 
+<img src="./assets/projects.svg" width="100%" alt="ls -la ~/projects"/>
+
+---
+
+<img src="./assets/now.svg" width="100%" alt="cat ~/now"/>
+
+---
+
 <img src="./assets/stack.svg" width="100%" alt="ls ~/stack"/>
 
 <div align="center">
@@ -36,27 +44,32 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Agent_Platform-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Gemini Enterprise Agent Platform (ex-Vertex AI)"/>
+<img src="https://img.shields.io/badge/Gemini_Enterprise_Agent_Platform-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Gemini Enterprise Agent Platform"/>
 <img src="https://img.shields.io/badge/Gemini_3-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini 3"/>
-<img src="https://img.shields.io/badge/Claude-07030f?style=flat-square&logo=claude&logoColor=a855f7" alt="Claude"/>
+<img src="https://img.shields.io/badge/Claude_Agent_SDK-07030f?style=flat-square&logo=claude&logoColor=a855f7" alt="Claude Agent SDK"/>
 <img src="https://img.shields.io/badge/ADK-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Development Kit"/>
+<img src="https://img.shields.io/badge/A2A-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent2Agent Protocol"/>
+<img src="https://img.shields.io/badge/AP2-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Payments Protocol"/>
+<img src="https://img.shields.io/badge/MCP_Apps-07030f?style=flat-square&logo=modelcontextprotocol&logoColor=a855f7" alt="MCP Apps"/>
 <img src="https://img.shields.io/badge/Model_Armor-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Model Armor"/>
-<img src="https://img.shields.io/badge/Agent_Gateway-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Gateway"/>
-<img src="https://img.shields.io/badge/LangGraph-07030f?style=flat-square&logo=langchain&logoColor=a855f7" alt="LangGraph"/>
 
 </div>
 
 ---
 
-<img src="./assets/architecture.svg" width="100%" alt="cat ~/architecture"/>
+<div align="center">
 
----
+<img src="./assets/streak.svg?v=20260707" alt="current streak" />
 
-<img src="./assets/now.svg" width="100%" alt="cat ~/now"/>
+<br/><br/>
 
----
+<img src="./assets/activity.svg?v=20260707" width="100%" alt="30-day contribution activity" />
 
-<img src="./assets/timeline.svg" width="100%" alt="career timeline — a decade in the wired"/>
+<br/>
+
+<sub><i>the streak is the point — code / prompt / ship, daily, no exceptions.</i></sub>
+
+</div>
 
 ---
 
@@ -80,9 +93,13 @@
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
+<img src="./profile-3d-contrib/profile-plasma-void.svg" width="100%" alt="3D Contribution Graph"/>
 
 </div>
+
+---
+
+<img src="./assets/timeline.svg" width="100%" alt="git log ~/career"/>
 
 ---
 
@@ -92,8 +109,21 @@
 
 <br/><br/>
 
+<img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
+
+<!-- FORTUNE:START -->
+<sub><i>close the world, txEn the nExt.</i></sub>
+<!-- FORTUNE:END -->
+
+<br/><br/>
+
 <a href="https://www.linkedin.com/in/khalid-a-3b2813192/">linkedin</a>
 
 </div>
+
+<!--
+  still here? the wired is vast and infinite, and most of what's real
+  in this profile is redacted. the streak up top isn't. — khalid
+-->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:9333ea,50:3b1d6b,100:07030f&height=120&section=footer" width="100%" />

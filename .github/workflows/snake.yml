@@ -1,0 +1,40 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # PAT_1 (repo scope) so the snake eats PRIVATE contributions too.
+      # Falls back to the ephemeral token if PAT_1 is ever removed.
+      - name: Generate assets/snake.svg (Plasma Void palette)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.PAT_1 || secrets.GITHUB_TOKEN }}
+          outputs: |
+            assets/snake.svg?color_snake=#c084fc&color_dots=#150a30,#3b1d6b,#6d28d9,#a855f7,#e9d5ff
+
+      - name: Commit updated snake
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/snake.svg
+          git diff --staged --quiet && { echo "no changes"; exit 0; }
+          git commit -m "chore: update snake [skip ci]"
+          # Race-safe push: other card workflows push to main concurrently.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "push retry $i…"; sleep 5
+          done
+          echo "::error::push failed after retries"; exit 1

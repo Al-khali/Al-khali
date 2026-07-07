@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-plasma-void.svg",
+  "backgroundColor": "#07030f",
+  "foregroundColor": "#c084fc",
+  "strongColor": "#e9d5ff",
+  "weakColor": "#3b1060",
+  "radarColor": "#a855f7",
+  "growingAnimation": true,
+  "contribColors": [
+    "#150a30",
+    "#3b1d6b",
+    "#6d28d9",
+    "#a855f7",
+    "#e9d5ff"
+  ]
+}

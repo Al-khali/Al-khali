@@ -96,6 +96,42 @@ jobs:
 
           kill "$SRV" 2>/dev/null || true
 
+      # Streak: the daily-motivation metric — a dead card here silently kills the
+      # streak's whole point, so it goes through the same fetch_svg guard as
+      # stats/top-langs (valid SVG + required title/value before overwriting).
+      # Needs GitHub Settings -> Profile -> "Include private contributions" ON,
+      # since streak-stats reads the public contribution graph, not the API.
+      - name: Generate streak card
+        run: |
+          set -uo pipefail
+          fetch_svg() {
+            local url="$1" out="$2" title="$3" value_node="$4"
+            local tmp; tmp="$(mktemp)"
+            if ! curl -fsS --retry 3 --retry-delay 3 --max-time 30 "$url" -o "$tmp"; then
+              echo "::warning::fetch failed for $out — keeping existing file"; rm -f "$tmp"; return 0
+            fi
+            perl -0777 -i -pe 's/\A\s+//' "$tmp"
+            if ! head -c 5 "$tmp" | grep -q '<svg' || ! grep -q '</svg>' "$tmp" \
+               || grep -qiE 'something went wrong|max(imum)? retries|bad credentials|invalid username|application not found' "$tmp"; then
+              echo "::warning::not a valid SVG for $out — keeping existing file"; rm -f "$tmp"; return 0
+            fi
+            if [ -n "$title" ] && ! grep -qiF "$title" "$tmp"; then
+              echo "::warning::title '$title' missing for $out — keeping existing file"; rm -f "$tmp"; return 0
+            fi
+            if [ -n "$value_node" ] && ! grep -qF "$value_node" "$tmp"; then
+              echo "::warning::value node '$value_node' missing for $out — keeping existing file"; rm -f "$tmp"; return 0
+            fi
+            mv "$tmp" "$out"; echo "updated $out"
+          }
+
+          fetch_svg \
+            "https://streak-stats.demolab.com/?user=al-khali&hide_border=true&background=07030f&border=2a0d60&ring=a855f7&fire=c084fc&currStreakNum=c084fc&currStreakLabel=a855f7&sideNums=9d7cc0&sideLabels=7c5cb0&dates=4a2d7a&stroke=2a0d60" \
+            assets/streak.svg "Current Streak" ""
+
+          fetch_svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=Al-khali&bg_color=07030f&color=c084fc&line=a855f7&point=6366f1&area=true&area_color=a855f7&hide_border=true&custom_title=contribution+activity" \
+            assets/activity.svg "contribution activity" ""
+
       # Trophies: the old vercel service (github-profile-trophy.vercel.app) is
       # dead (HTTP 402 DEPLOYMENT_DISABLED). Generate them in-CI instead with a
       # Go reimplementation. Pinned to a commit SHA because it receives PAT_1.
@@ -105,15 +141,36 @@ jobs:
         uses: soulteary/github-profile-trophy-action@cabefc1ce203b1ce4c03dae3335aa794aefbbb80  # v1.0.0
         with:
           # rank filter => only S-tier trophies are shown (curated flex).
-          options: 'username=al-khali&theme=tokyonight&rank=SSS,SS,S&no-frame=true&no-bg=true&column=6&margin-w=4&margin-h=4'
+          # aura: closest built-in theme to Plasma Void (violet #8e57ff accents).
+          options: 'username=al-khali&theme=aura&rank=SSS,SS,S&no-frame=true&no-bg=true&column=6&margin-w=4&margin-h=4'
           path: assets/trophies.svg
           token: ${{ secrets.PAT_1 }}
+
+      # Rotates the one-liner between the FORTUNE markers in the footer —
+      # small daily bit of novelty, not worth a whole separate workflow.
+      - name: Roll a new fortune line
+        run: |
+          quotes=(
+            "close the world, txEn the nExt."
+            "no matter where you go, everyone's connected."
+            "the code doesn't care why you wrote it — it just runs."
+            "shipped is better than perfect. perfect never ships."
+            "one more commit before the wired goes dark."
+            "present day, present time... hahaha."
+            "the machines remember what you forget to document."
+            "streak unbroken. mind still wired."
+          )
+          pick="${quotes[$RANDOM % ${#quotes[@]}]}"
+          perl -0777 -i -pe 's{(<!-- FORTUNE:START -->\n<sub><i>).*?(</i></sub>\n<!-- FORTUNE:END -->)}{${1}'"$pick"'${2}}s' README.md
 
       - name: Commit updated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/top-langs.svg
+          git add assets/stats.svg assets/top-langs.svg README.md
+          for f in assets/streak.svg assets/activity.svg; do
+            [ -f "$f" ] && head -c 200 "$f" | grep -q '<svg' && git add "$f"
+          done
           if [ -f assets/trophies.svg ] && head -c 200 assets/trophies.svg | grep -q '<svg'; then
             git add assets/trophies.svg
           fi

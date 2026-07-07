@@ -36,7 +36,7 @@
   <text class="mono" y="144">
     <tspan x="40" fill="#7c5cb0">focus</tspan>
     <tspan x="140" fill="#2e1060">:</tspan>
-    <tspan x="158"><tspan fill="#a855f7">Agentic AI </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">RAG </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Graph RAG </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">MCP </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Evals</tspan></tspan>
+    <tspan x="158"><tspan fill="#a855f7">Agentic AI </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">MCP Apps </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">A2A </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">AP2 </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Evals</tspan></tspan>
   </text>
 
   <text class="mono" y="166">
@@ -48,7 +48,7 @@
   <text class="mono" y="188">
     <tspan x="40" fill="#7c5cb0">cloud</tspan>
     <tspan x="140" fill="#2e1060">:</tspan>
-    <tspan x="158"><tspan fill="#a855f7">Agent Platform </tspan><tspan fill="#6b4fa0">(ex-Vertex AI) </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Model Armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">ADK</tspan></tspan>
+    <tspan x="158"><tspan fill="#a855f7">Gemini Enterprise Agent Platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">Model Armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#c084fc">ADK</tspan></tspan>
   </text>
 
   <text class="mono" y="210">

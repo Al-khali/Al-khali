@@ -1,13 +1,13 @@
-<svg width="760" height="174" viewBox="0 0 760 174" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="226" viewBox="0 0 760 226" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="glow-n" cx="92%" cy="10%" r="50%">
       <stop offset="0%" stop-color="#6366f1" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <rect width="760" height="174" rx="8" fill="#07030f"/>
-  <rect width="760" height="174" rx="8" fill="url(#glow-n)"/>
-  <rect width="760" height="174" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
+  <rect width="760" height="226" rx="8" fill="#07030f"/>
+  <rect width="760" height="226" rx="8" fill="url(#glow-n)"/>
+  <rect width="760" height="226" rx="8" fill="none" stroke="#2a0d60" stroke-width="1"/>
   <style>
     .mono { font-family: 'SF Mono','Cascadia Code','Fira Code','Courier New',monospace; font-size: 14px; }
   </style>
@@ -22,32 +22,46 @@
   <text class="mono" y="78">
     <tspan x="40" fill="#7c5cb0">building</tspan>
     <tspan x="150" fill="#2e1060">:</tspan>
-    <tspan x="168" fill="#a78bfa">agentic-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">mcp-servers </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">agent-evals</tspan>
+    <tspan x="168" fill="#a78bfa">agentic-rag </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">mcp apps </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#a78bfa">long-running agent harness</tspan>
   </text>
 
-  <!-- exploring -->
+  <!-- protocols -->
   <text class="mono" y="100">
-    <tspan x="40" fill="#7c5cb0">exploring</tspan>
+    <tspan x="40" fill="#7c5cb0">protocols</tspan>
     <tspan x="150" fill="#2e1060">:</tspan>
-    <tspan x="168" fill="#818cf8">agent-platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">model-armor </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">a2a-v1.2</tspan>
+    <tspan x="168" fill="#818cf8">AP2 </tspan><tspan fill="#6b4fa0">(agent payments) </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">A2A v1.2 </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">MCP</tspan>
   </text>
 
-  <!-- mission -->
+  <!-- platforms -->
   <text class="mono" y="122">
-    <tspan x="40" fill="#7c5cb0">mission</tspan>
+    <tspan x="40" fill="#7c5cb0">platforms</tspan>
     <tspan x="150" fill="#2e1060">:</tspan>
-    <tspan x="168" fill="#9d7cc0">GenAI systems for a French luxury maison</tspan>
+    <tspan x="168" fill="#818cf8">Gemini Enterprise Agent Platform </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#818cf8">Claude Agent SDK</tspan>
+  </text>
+
+  <!-- watching -->
+  <text class="mono" y="144">
+    <tspan x="40" fill="#7c5cb0">watching</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168" fill="#9d7cc0">Google Next '26 </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">Google I/O '26 </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">Gemini 3 rollout</tspan>
+  </text>
+
+  <!-- evals -->
+  <text class="mono" y="166">
+    <tspan x="40" fill="#7c5cb0">evals</tspan>
+    <tspan x="150" fill="#2e1060">:</tspan>
+    <tspan x="168" fill="#9d7cc0">trace-based observability </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">llm-as-judge </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">regression harness</tspan>
   </text>
 
   <!-- tinkering -->
-  <text class="mono" y="144">
+  <text class="mono" y="188">
     <tspan x="40" fill="#7c5cb0">tinkering</tspan>
     <tspan x="150" fill="#2e1060">:</tspan>
     <tspan x="168" fill="#9d7cc0">zig </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">offensive-sec </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">robotics </tspan><tspan fill="#3b1060">· </tspan><tspan fill="#9d7cc0">ebpf</tspan>
   </text>
 
   <!-- pulse -->
-  <text class="mono" y="166" font-style="italic">
+  <text class="mono" y="212" font-style="italic">
     <tspan x="40" fill="#2a1555">// present day, present time — the wired is always on</tspan>
   </text>
 </svg>
