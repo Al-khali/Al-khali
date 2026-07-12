@@ -112,7 +112,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>the code doesn't care why you wrote it — it just runs.</i></sub>
+<sub><i>one more commit before the wired goes dark.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
