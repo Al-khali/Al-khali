@@ -12,6 +12,10 @@
 
 <br/>
 
+<img src="./assets/google-partner.jpg" width="100%" alt="Google Cloud AI Engineer"/>
+
+<br/>
+
 <img src="./assets/claude-partner.svg" width="100%" alt="Anthropic Partner — i use claude code"/>
 
 <div align="center">
@@ -44,14 +48,18 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Gemini_Enterprise_Agent_Platform-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Gemini Enterprise Agent Platform"/>
-<img src="https://img.shields.io/badge/Gemini_3-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini 3"/>
+<img src="https://img.shields.io/badge/Agent_Platform-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Gemini Enterprise Agent Platform (ex-Vertex AI)"/>
+<img src="https://img.shields.io/badge/Gemini_3.1_Pro-07030f?style=flat-square&logo=googlegemini&logoColor=a855f7" alt="Gemini 3.1 Pro"/>
 <img src="https://img.shields.io/badge/Claude_Agent_SDK-07030f?style=flat-square&logo=claude&logoColor=a855f7" alt="Claude Agent SDK"/>
 <img src="https://img.shields.io/badge/ADK-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Development Kit"/>
+<img src="https://img.shields.io/badge/Agent_Studio-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Studio"/>
+<img src="https://img.shields.io/badge/Model_Armor-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Model Armor"/>
+<img src="https://img.shields.io/badge/Agent_Gateway-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Gateway"/>
 <img src="https://img.shields.io/badge/A2A-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent2Agent Protocol"/>
 <img src="https://img.shields.io/badge/AP2-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Agent Payments Protocol"/>
 <img src="https://img.shields.io/badge/MCP_Apps-07030f?style=flat-square&logo=modelcontextprotocol&logoColor=a855f7" alt="MCP Apps"/>
-<img src="https://img.shields.io/badge/Model_Armor-07030f?style=flat-square&logo=googlecloud&logoColor=a855f7" alt="Model Armor"/>
+<img src="https://img.shields.io/badge/LangGraph-07030f?style=flat-square&logo=langchain&logoColor=a855f7" alt="LangGraph"/>
+<img src="https://img.shields.io/badge/Antigravity_(agy)-07030f?style=flat-square&logo=google&logoColor=a855f7" alt="Testing Antigravity (agy)"/>
 
 </div>
 
