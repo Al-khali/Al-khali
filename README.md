@@ -8,13 +8,11 @@
 
 <br/>
 
-<img src="./assets/whoami.svg" width="100%" alt="whoami --verbose"/>
-
-<br/>
-
-<div align="center">
-<img src="./assets/google-partner.jpg" height="200" style="border-radius: 15px;" alt="Google Cloud AI Engineer"/>
-</div>
+<p align="center">
+  <img src="./assets/whoami.svg" width="65%" alt="whoami --verbose"/>
+  &nbsp;&nbsp;
+  <img src="./assets/google-partner.jpg" width="30%" style="border-radius: 15px;" alt="Google Cloud AI Engineer"/>
+</p>
 
 <br/>
 
