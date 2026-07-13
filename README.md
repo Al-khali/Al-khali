@@ -12,7 +12,9 @@
 
 <br/>
 
-<img src="./assets/google-partner.jpg" width="100%" alt="Google Cloud AI Engineer"/>
+<div align="center">
+<img src="./assets/google-partner.jpg" height="200" style="border-radius: 15px;" alt="Google Cloud AI Engineer"/>
+</div>
 
 <br/>
 
