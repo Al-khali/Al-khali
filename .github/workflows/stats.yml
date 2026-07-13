@@ -176,9 +176,25 @@ jobs:
           fi
           git diff --staged --quiet && { echo "no changes"; exit 0; }
           git commit -m "chore: update stats + trophy SVGs [skip ci]"
-          # Race-safe push: other card workflows push to main concurrently.
+          # Race-safe push: snake/3d workflows AND manual profile edits push to
+          # main concurrently. Rebase our commit onto the latest remote; on a
+          # conflict keep the REMOTE README (preserve hand edits) and OUR freshly
+          # generated SVGs, then finish. A plain `git pull --rebase` used to get
+          # stuck here — a conflict left unmerged files, so every retry died with
+          # "Pulling is not possible because you have unmerged files".
           for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main && git push && exit 0
+            git fetch origin main || { echo "::warning::fetch failed"; sleep 5; continue; }
+            if git rebase origin/main; then
+              git push origin HEAD:main && exit 0
+            else
+              git checkout --ours   -- README.md 2>/dev/null || true
+              git checkout --theirs -- assets     2>/dev/null || true
+              git add -A
+              GIT_EDITOR=true git rebase --continue \
+                || GIT_EDITOR=true git rebase --skip \
+                || git rebase --abort
+              git push origin HEAD:main && exit 0
+            fi
             echo "push retry $i…"; sleep 5
           done
           echo "::error::push failed after retries"; exit 1
