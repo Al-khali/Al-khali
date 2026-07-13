@@ -112,7 +112,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>no matter where you go, everyone's connected.</i></sub>
+<sub><i>shipped is better than perfect. perfect never ships.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
