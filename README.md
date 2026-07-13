@@ -9,9 +9,9 @@
 <br/>
 
 <p align="center">
-  <img src="./assets/whoami.svg" width="65%" alt="whoami --verbose"/>
+  <img src="./assets/google-partner.png" width="28%" alt="Google Cloud AI Engineer"/>
   &nbsp;&nbsp;
-  <img src="./assets/google-partner.jpg" width="30%" style="border-radius: 15px;" alt="Google Cloud AI Engineer"/>
+  <img src="./assets/whoami.svg" width="68%" alt="whoami --verbose"/>
 </p>
 
 <br/>
