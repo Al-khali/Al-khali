@@ -13,7 +13,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # PAT_1 (repo scope) so the snake eats PRIVATE contributions too.
       # Falls back to the ephemeral token if PAT_1 is ever removed.
