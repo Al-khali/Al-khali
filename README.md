@@ -120,7 +120,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>the machines remember what you forget to document.</i></sub>
+<sub><i>shipped is better than perfect. perfect never ships.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
