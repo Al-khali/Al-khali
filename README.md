@@ -120,7 +120,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>streak unbroken. mind still wired.</i></sub>
+<sub><i>close the world, txEn the nExt.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
