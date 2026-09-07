@@ -128,9 +128,17 @@ jobs:
             "https://streak-stats.demolab.com/?user=al-khali&hide_border=true&background=07030f&border=2a0d60&ring=a855f7&fire=c084fc&currStreakNum=c084fc&currStreakLabel=a855f7&sideNums=9d7cc0&sideLabels=7c5cb0&dates=4a2d7a&stroke=2a0d60" \
             assets/streak.svg "Current Streak" ""
 
-          fetch_svg \
-            "https://github-readme-activity-graph.vercel.app/graph?username=Al-khali&bg_color=07030f&color=c084fc&line=a855f7&point=6366f1&area=true&area_color=a855f7&hide_border=true&custom_title=contribution+activity" \
-            assets/activity.svg "contribution activity" ""
+      # Activity graph: the vercel service (github-readme-activity-graph) died with
+      # HTTP 402 DEPLOYMENT_DISABLED (same fate as the old trophy service), which
+      # froze activity.svg at a stale state with a cliff to zero. Generate it in-CI
+      # from the real GraphQL contribution calendar instead — fully self-contained.
+      - name: Generate activity graph (in-CI)
+        env:
+          PAT_1: ${{ secrets.PAT_1 }}
+        run: |
+          set -uo pipefail
+          [ -z "${PAT_1:-}" ] && { echo "::warning::PAT_1 not set — keeping activity.svg"; exit 0; }
+          python3 scripts/activity_graph.py || echo "::warning::activity graph gen failed — keeping existing"
 
       # Trophies: the old vercel service (github-profile-trophy.vercel.app) is
       # dead (HTTP 402 DEPLOYMENT_DISABLED). Generate them in-CI instead with a
