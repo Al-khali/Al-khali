@@ -167,13 +167,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/top-langs.svg README.md
-          for f in assets/streak.svg assets/activity.svg; do
-            [ -f "$f" ] && head -c 200 "$f" | grep -q '<svg' && git add "$f"
+          # Normalize EVERY generated SVG: strip any leading whitespace. GitHub
+          # renders a file as a broken image unless it STARTS with "<svg" — the
+          # in-CI trophy action writes a leading blank line, which the old
+          # `grep -q '<svg'` guard (matches anywhere, not just the start) let
+          # through and committed broken. Strip first, then require a real <svg
+          # start before staging.
+          for f in assets/stats.svg assets/top-langs.svg assets/streak.svg assets/activity.svg assets/trophies.svg; do
+            [ -f "$f" ] || continue
+            perl -0777 -i -pe 's/\A\s+//' "$f"
+            head -c 5 "$f" | grep -q '<svg' && git add "$f" || echo "::warning::$f is not a valid SVG — not staged"
           done
-          if [ -f assets/trophies.svg ] && head -c 200 assets/trophies.svg | grep -q '<svg'; then
-            git add assets/trophies.svg
-          fi
+          git add README.md
           git diff --staged --quiet && { echo "no changes"; exit 0; }
           git commit -m "chore: update stats + trophy SVGs [skip ci]"
           # Race-safe push: snake/3d workflows AND manual profile edits push to
