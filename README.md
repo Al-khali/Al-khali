@@ -120,7 +120,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>present day, present time... hahaha.</i></sub>
+<sub><i>shipped is better than perfect. perfect never ships.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
