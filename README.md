@@ -120,7 +120,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>shipped is better than perfect. perfect never ships.</i></sub>
+<sub><i>one more commit before the wired goes dark.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
