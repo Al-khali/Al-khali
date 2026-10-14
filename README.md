@@ -120,7 +120,7 @@
 <img src="./assets/snake.svg" width="100%" alt="contribution snake"/>
 
 <!-- FORTUNE:START -->
-<sub><i>present day, present time... hahaha.</i></sub>
+<sub><i>no matter where you go, everyone's connected.</i></sub>
 <!-- FORTUNE:END -->
 
 <br/><br/>
